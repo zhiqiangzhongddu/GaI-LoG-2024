@@ -1,4 +1,4 @@
-# Graph as Image (GaI)
+# Exploring Graph Structure Comprehension Ability of Multimodal Large Language Models: Case Studies
 
 ## Instruction to execution
 
@@ -7,7 +7,7 @@ Before everything, you need to create ``openai_env.py`` file to indicate your ``
 1. Generate graphs.
    1. We generated 500 graphs for each of the following algorithms: er, ba, sbm, sfn
    2. We generated 100 graphs for each of the following algorithms: complete, star, path
-   2. Generated graphs are located in (``input/generated_graphs``).
+   3. Generated graphs are located in (``input/generated_graphs``).
 2. Generate graph images.
    1. We generate images for the graphs generated in Step-1. 
    2. Generated graph images are located in (``input/generated_graph_images``).
@@ -63,4 +63,17 @@ python -m code.message_generator graph.algorithm er task.name cycle_check task.t
 Example:
 ```
 python -m code.llm_queryer llm.name gpt-4o graph.algorithm er task.name cycle_check task.cot False task.bag False task.use_text True task.use_image False demo_test True
+```
+
+## Cite
+
+Please cite our paper if it is helpful in your own work:
+
+```bibtex
+@article{zhong2024exploring,
+  title={Exploring Graph Structure Comprehension Ability of Multimodal Large Language Models: Case Studies},
+  author={Zhong, Zhiqiang and Mottin, Davide},
+  journal={arXiv preprint arXiv:2409.08864},
+  year={2024}
+}
 ```
