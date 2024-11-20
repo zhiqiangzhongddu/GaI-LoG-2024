@@ -1,0 +1,1402 @@
+{
+  "0": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 6. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 0,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      62,
+      57
+    ]
+  },
+  "1": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 17. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 1,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      2,
+      30
+    ]
+  },
+  "2": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 2,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      94,
+      59
+    ]
+  },
+  "3": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 3,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      73,
+      64
+    ]
+  },
+  "4": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 4.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 4,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      52,
+      70
+    ]
+  },
+  "5": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 5,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      26,
+      47
+    ]
+  },
+  "6": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 6,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      72,
+      22
+    ]
+  },
+  "7": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 17. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 18.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 7,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      71,
+      24
+    ]
+  },
+  "8": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 8,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      46,
+      99
+    ]
+  },
+  "9": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 9,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      41,
+      11
+    ]
+  },
+  "10": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 18. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17), (0, 18).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 10,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      20,
+      39
+    ]
+  },
+  "11": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 11,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      88,
+      22
+    ]
+  },
+  "12": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 12,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      8,
+      90
+    ]
+  },
+  "13": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 13,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      47,
+      42
+    ]
+  },
+  "14": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 14,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      20,
+      89
+    ]
+  },
+  "15": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 15,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      0,
+      97
+    ]
+  },
+  "16": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 17. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 18.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 16,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      25,
+      87
+    ]
+  },
+  "17": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 17. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 17,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      71,
+      56
+    ]
+  },
+  "18": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 18,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      40,
+      86
+    ]
+  },
+  "19": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 19,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      1,
+      70
+    ]
+  },
+  "20": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 6. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 20,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      17,
+      40
+    ]
+  },
+  "21": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 21,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      72,
+      40
+    ]
+  },
+  "22": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 22,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      27,
+      94
+    ]
+  },
+  "23": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 23,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      89,
+      81
+    ]
+  },
+  "24": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 24,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      0,
+      0
+    ]
+  },
+  "25": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 25,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      89,
+      91
+    ]
+  },
+  "26": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 26,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      63,
+      3
+    ]
+  },
+  "27": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 27,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      83,
+      44
+    ]
+  },
+  "28": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 4.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 28,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      68,
+      74
+    ]
+  },
+  "29": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 29,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      72,
+      20
+    ]
+  },
+  "30": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 30,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      49,
+      48
+    ]
+  },
+  "31": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 6. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 31,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      14,
+      58
+    ]
+  },
+  "32": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 32,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      33,
+      24
+    ]
+  },
+  "33": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 33,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      0,
+      58
+    ]
+  },
+  "34": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 34,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      44,
+      36
+    ]
+  },
+  "35": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 6. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 35,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      62,
+      8
+    ]
+  },
+  "36": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 4.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 36,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      4,
+      33
+    ]
+  },
+  "37": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 37,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      92,
+      5
+    ]
+  },
+  "38": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 38,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      22,
+      12
+    ]
+  },
+  "39": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 18.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 39,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      74,
+      63
+    ]
+  },
+  "40": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 40,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      68,
+      60
+    ]
+  },
+  "41": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 41,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      64,
+      88
+    ]
+  },
+  "42": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 42,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      35,
+      99
+    ]
+  },
+  "43": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 4.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 43,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      78,
+      57
+    ]
+  },
+  "44": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 44,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      15,
+      95
+    ]
+  },
+  "45": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 45,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      58,
+      43
+    ]
+  },
+  "46": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 46,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      5,
+      73
+    ]
+  },
+  "47": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 47,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      70,
+      70
+    ]
+  },
+  "48": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 48,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      86,
+      12
+    ]
+  },
+  "49": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 49,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      36,
+      73
+    ]
+  },
+  "50": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 50,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      89,
+      29
+    ]
+  },
+  "51": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 51,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      94,
+      5
+    ]
+  },
+  "52": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 52,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      9,
+      56
+    ]
+  },
+  "53": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 53,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      75,
+      46
+    ]
+  },
+  "54": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 54,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      25,
+      10
+    ]
+  },
+  "55": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 55,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      72,
+      58
+    ]
+  },
+  "56": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 56,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      1,
+      88
+    ]
+  },
+  "57": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 6. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 57,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      55,
+      32
+    ]
+  },
+  "58": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 18. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17), (0, 18).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 17. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 58,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      79,
+      71
+    ]
+  },
+  "59": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 59,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      51,
+      5
+    ]
+  },
+  "60": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 60,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      9,
+      94
+    ]
+  },
+  "61": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 61,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      81,
+      77
+    ]
+  },
+  "62": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 62,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      53,
+      84
+    ]
+  },
+  "63": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 17. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 63,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      45,
+      59
+    ]
+  },
+  "64": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 64,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      90,
+      5
+    ]
+  },
+  "65": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 18. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17), (0, 18).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 65,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      15,
+      39
+    ]
+  },
+  "66": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 66,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      92,
+      63
+    ]
+  },
+  "67": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 67,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      25,
+      60
+    ]
+  },
+  "68": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 68,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      94,
+      40
+    ]
+  },
+  "69": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 69,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      60,
+      5
+    ]
+  },
+  "70": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 70,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      43,
+      41
+    ]
+  },
+  "71": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 71,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      64,
+      25
+    ]
+  },
+  "72": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 72,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      61,
+      5
+    ]
+  },
+  "73": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 73,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      25,
+      88
+    ]
+  },
+  "74": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 74,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      43,
+      50
+    ]
+  },
+  "75": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 75,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      51,
+      51
+    ]
+  },
+  "76": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 76,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      56,
+      52
+    ]
+  },
+  "77": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 4.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 77,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      86,
+      95
+    ]
+  },
+  "78": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 78,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      42,
+      43
+    ]
+  },
+  "79": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 18.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 79,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      73,
+      92
+    ]
+  },
+  "80": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 6. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 80,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      19,
+      28
+    ]
+  },
+  "81": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 81,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      96,
+      59
+    ]
+  },
+  "82": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 18. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17), (0, 18).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 82,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      20,
+      39
+    ]
+  },
+  "83": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 83,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      69,
+      6
+    ]
+  },
+  "84": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 84,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      64,
+      88
+    ]
+  },
+  "85": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 10. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 85,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      97,
+      81
+    ]
+  },
+  "86": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 86,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      28,
+      31
+    ]
+  },
+  "87": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 87,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      69,
+      6
+    ]
+  },
+  "88": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 88,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      4,
+      10
+    ]
+  },
+  "89": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 6. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 89,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      19,
+      94
+    ]
+  },
+  "90": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 90,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      50,
+      85
+    ]
+  },
+  "91": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 8. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 91,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      1,
+      23
+    ]
+  },
+  "92": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 14. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 92,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      33,
+      70
+    ]
+  },
+  "93": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 15. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 7. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 93,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      47,
+      29
+    ]
+  },
+  "94": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 12. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 17. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 94,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      52,
+      71
+    ]
+  },
+  "95": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 13. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 95,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      2,
+      77
+    ]
+  },
+  "96": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 5. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 11. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 96,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      85,
+      13
+    ]
+  },
+  "97": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 6. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 97,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      55,
+      51
+    ]
+  },
+  "98": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 4. The edges are (0, 1), (0, 2), (0, 3), (0, 4).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 9. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 98,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      28,
+      38
+    ]
+  },
+  "99": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 17. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16), (0, 17).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: 16. The edges are (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (0, 16).\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many edges are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many edges are in this graph?\nA: ",
+    "graph_id": 99,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      71,
+      0
+    ]
+  }
+}

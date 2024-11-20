@@ -1,0 +1,1602 @@
+{
+  "0": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 16?\nA: ",
+    "answer": "1.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the degree of node 16?\nA: ",
+    "graph_id": 0,
+    "algorithm": "path",
+    "node_ids": [
+      16
+    ],
+    "few_shot_graph_ids": [
+      46,
+      44
+    ]
+  },
+  "1": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 1,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      76,
+      16
+    ]
+  },
+  "2": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 11?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the degree of node 11?\nA: ",
+    "graph_id": 2,
+    "algorithm": "path",
+    "node_ids": [
+      11
+    ],
+    "few_shot_graph_ids": [
+      51,
+      4
+    ]
+  },
+  "3": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 6?\nA: 1. This is because 6 is connected to and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the degree of node 6?\nA: ",
+    "graph_id": 3,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ],
+    "few_shot_graph_ids": [
+      82,
+      60
+    ]
+  },
+  "4": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 4,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      44,
+      62
+    ]
+  },
+  "5": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 5,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      77,
+      45
+    ]
+  },
+  "6": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 9?\nA: 2. This is because 9 is connected to 8, and 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 6,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      13,
+      80
+    ]
+  },
+  "7": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 18?\nA: ",
+    "answer": "1.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the degree of node 18?\nA: ",
+    "graph_id": 7,
+    "algorithm": "path",
+    "node_ids": [
+      18
+    ],
+    "few_shot_graph_ids": [
+      89,
+      38
+    ]
+  },
+  "8": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 4?\nA: 1. This is because 4 is connected to and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 12?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the degree of node 12?\nA: ",
+    "graph_id": 8,
+    "algorithm": "path",
+    "node_ids": [
+      12
+    ],
+    "few_shot_graph_ids": [
+      43,
+      23
+    ]
+  },
+  "9": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 12?\nA: 2. This is because 12 is connected to 11, and 13.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 0?\nA: ",
+    "graph_id": 9,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ],
+    "few_shot_graph_ids": [
+      81,
+      23
+    ]
+  },
+  "10": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 13?\nA: 2. This is because 13 is connected to 12, and 14.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 10,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      62,
+      87
+    ]
+  },
+  "11": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 11,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      51,
+      67
+    ]
+  },
+  "12": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the degree of node 7?\nA: ",
+    "graph_id": 12,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ],
+    "few_shot_graph_ids": [
+      58,
+      31
+    ]
+  },
+  "13": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 8?\nA: 2. This is because 8 is connected to 7, and 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the degree of node 7?\nA: ",
+    "graph_id": 13,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ],
+    "few_shot_graph_ids": [
+      35,
+      24
+    ]
+  },
+  "14": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 14,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      16,
+      72
+    ]
+  },
+  "15": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 13?\nA: 1. This is because 13 is connected to and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 6?\nA: ",
+    "graph_id": 15,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ],
+    "few_shot_graph_ids": [
+      92,
+      71
+    ]
+  },
+  "16": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the degree of node 9?\nA: ",
+    "graph_id": 16,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ],
+    "few_shot_graph_ids": [
+      24,
+      6
+    ]
+  },
+  "17": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 7?\nA: 2. This is because 7 is connected to 6, and 8.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the degree of node 0?\nA: ",
+    "graph_id": 17,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ],
+    "few_shot_graph_ids": [
+      32,
+      63
+    ]
+  },
+  "18": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 4?\nA: 1. This is because 4 is connected to and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 18,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      24,
+      43
+    ]
+  },
+  "19": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 9?\nA: 2. This is because 9 is connected to 8, and 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 19,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      90,
+      95
+    ]
+  },
+  "20": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the degree of node 6?\nA: ",
+    "graph_id": 20,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ],
+    "few_shot_graph_ids": [
+      14,
+      19
+    ]
+  },
+  "21": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 21,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      60,
+      58
+    ]
+  },
+  "22": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 6?\nA: ",
+    "graph_id": 22,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ],
+    "few_shot_graph_ids": [
+      76,
+      28
+    ]
+  },
+  "23": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 13?\nA: 2. This is because 13 is connected to 12, and 14.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 7?\nA: 1. This is because 7 is connected to and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 7?\nA: ",
+    "graph_id": 23,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ],
+    "few_shot_graph_ids": [
+      47,
+      57
+    ]
+  },
+  "24": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 13?\nA: 1. This is because 13 is connected to and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 24,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      91,
+      92
+    ]
+  },
+  "25": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 25,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      12,
+      40
+    ]
+  },
+  "26": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 10?\nA: ",
+    "graph_id": 26,
+    "algorithm": "path",
+    "node_ids": [
+      10
+    ],
+    "few_shot_graph_ids": [
+      97,
+      70
+    ]
+  },
+  "27": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 27,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      28,
+      25
+    ]
+  },
+  "28": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 28,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      80,
+      44
+    ]
+  },
+  "29": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 9?\nA: 2. This is because 9 is connected to 8, and 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 29,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      90,
+      38
+    ]
+  },
+  "30": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 8?\nA: 2. This is because 8 is connected to 7, and 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 11?\nA: ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the degree of node 11?\nA: ",
+    "graph_id": 30,
+    "algorithm": "path",
+    "node_ids": [
+      11
+    ],
+    "few_shot_graph_ids": [
+      65,
+      9
+    ]
+  },
+  "31": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 13?\nA: 2. This is because 13 is connected to 12, and 14.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 31,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      36,
+      47
+    ]
+  },
+  "32": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 32,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      54,
+      2
+    ]
+  },
+  "33": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 33,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      55,
+      96
+    ]
+  },
+  "34": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the degree of node 8?\nA: ",
+    "graph_id": 34,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ],
+    "few_shot_graph_ids": [
+      7,
+      8
+    ]
+  },
+  "35": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 6?\nA: 1. This is because 6 is connected to and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 12?\nA: 2. This is because 12 is connected to 11, and 13.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 14?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the degree of node 14?\nA: ",
+    "graph_id": 35,
+    "algorithm": "path",
+    "node_ids": [
+      14
+    ],
+    "few_shot_graph_ids": [
+      82,
+      26
+    ]
+  },
+  "36": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 14?\nA: 1. This is because 14 is connected to and 13.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 8?\nA: 2. This is because 8 is connected to 7, and 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 36,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      56,
+      35
+    ]
+  },
+  "37": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the degree of node 0?\nA: ",
+    "graph_id": 37,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ],
+    "few_shot_graph_ids": [
+      66,
+      60
+    ]
+  },
+  "38": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the degree of node 7?\nA: ",
+    "graph_id": 38,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ],
+    "few_shot_graph_ids": [
+      69,
+      10
+    ]
+  },
+  "39": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 13?\nA: 1. This is because 13 is connected to and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 39,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      92,
+      58
+    ]
+  },
+  "40": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the degree of node 0?\nA: ",
+    "graph_id": 40,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ],
+    "few_shot_graph_ids": [
+      50,
+      50
+    ]
+  },
+  "41": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 41,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      19,
+      54
+    ]
+  },
+  "42": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 8?\nA: 1. This is because 8 is connected to and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 7?\nA: ",
+    "answer": "1.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the degree of node 7?\nA: ",
+    "graph_id": 42,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ],
+    "few_shot_graph_ids": [
+      53,
+      21
+    ]
+  },
+  "43": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the degree of node 0?\nA: ",
+    "graph_id": 43,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ],
+    "few_shot_graph_ids": [
+      41,
+      6
+    ]
+  },
+  "44": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 44,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      39,
+      50
+    ]
+  },
+  "45": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the degree of node 10?\nA: ",
+    "graph_id": 45,
+    "algorithm": "path",
+    "node_ids": [
+      10
+    ],
+    "few_shot_graph_ids": [
+      89,
+      74
+    ]
+  },
+  "46": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 46,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      16,
+      29
+    ]
+  },
+  "47": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 9?\nA: 2. This is because 9 is connected to 8, and 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the degree of node 9?\nA: ",
+    "graph_id": 47,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ],
+    "few_shot_graph_ids": [
+      24,
+      98
+    ]
+  },
+  "48": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 48,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      84,
+      51
+    ]
+  },
+  "49": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 49,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      46,
+      50
+    ]
+  },
+  "50": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 7?\nA: 1. This is because 7 is connected to and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the degree of node 9?\nA: ",
+    "graph_id": 50,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ],
+    "few_shot_graph_ids": [
+      45,
+      57
+    ]
+  },
+  "51": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 6?\nA: 1. This is because 6 is connected to and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 51,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      82,
+      94
+    ]
+  },
+  "52": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the degree of node 9?\nA: ",
+    "graph_id": 52,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ],
+    "few_shot_graph_ids": [
+      16,
+      96
+    ]
+  },
+  "53": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 4?\nA: 1. This is because 4 is connected to and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 53,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      43,
+      83
+    ]
+  },
+  "54": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the degree of node 8?\nA: ",
+    "graph_id": 54,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ],
+    "few_shot_graph_ids": [
+      70,
+      29
+    ]
+  },
+  "55": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 8?\nA: 2. This is because 8 is connected to 7, and 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 6?\nA: ",
+    "answer": "1.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the degree of node 6?\nA: ",
+    "graph_id": 55,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ],
+    "few_shot_graph_ids": [
+      50,
+      65
+    ]
+  },
+  "56": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 11?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 11?\nA: ",
+    "graph_id": 56,
+    "algorithm": "path",
+    "node_ids": [
+      11
+    ],
+    "few_shot_graph_ids": [
+      77,
+      36
+    ]
+  },
+  "57": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 57,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      68,
+      78
+    ]
+  },
+  "58": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 58,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      27,
+      10
+    ]
+  },
+  "59": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 13?\nA: 2. This is because 13 is connected to 12, and 14.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 8?\nA: ",
+    "answer": "1.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 8?\nA: ",
+    "graph_id": 59,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ],
+    "few_shot_graph_ids": [
+      47,
+      44
+    ]
+  },
+  "60": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 9?\nA: 2. This is because 9 is connected to 8, and 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the degree of node 6?\nA: ",
+    "graph_id": 60,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ],
+    "few_shot_graph_ids": [
+      55,
+      90
+    ]
+  },
+  "61": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the degree of node 10?\nA: ",
+    "graph_id": 61,
+    "algorithm": "path",
+    "node_ids": [
+      10
+    ],
+    "few_shot_graph_ids": [
+      51,
+      55
+    ]
+  },
+  "62": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 62,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      70,
+      31
+    ]
+  },
+  "63": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 63,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      59,
+      78
+    ]
+  },
+  "64": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 13?\nA: 1. This is because 13 is connected to and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 64,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      3,
+      14
+    ]
+  },
+  "65": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the degree of node 7?\nA: ",
+    "graph_id": 65,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ],
+    "few_shot_graph_ids": [
+      95,
+      68
+    ]
+  },
+  "66": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 66,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      36,
+      27
+    ]
+  },
+  "67": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 67,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      51,
+      54
+    ]
+  },
+  "68": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 5?\nA: 1. This is because 5 is connected to and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 8?\nA: ",
+    "answer": "1.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 8?\nA: ",
+    "graph_id": 68,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ],
+    "few_shot_graph_ids": [
+      80,
+      11
+    ]
+  },
+  "69": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 13?\nA: 2. This is because 13 is connected to 12, and 14.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the degree of node 9?\nA: ",
+    "graph_id": 69,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ],
+    "few_shot_graph_ids": [
+      8,
+      47
+    ]
+  },
+  "70": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 9?\nA: ",
+    "graph_id": 70,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ],
+    "few_shot_graph_ids": [
+      83,
+      69
+    ]
+  },
+  "71": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 17?\nA: ",
+    "answer": "1.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the degree of node 17?\nA: ",
+    "graph_id": 71,
+    "algorithm": "path",
+    "node_ids": [
+      17
+    ],
+    "few_shot_graph_ids": [
+      27,
+      9
+    ]
+  },
+  "72": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 72,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      86,
+      75
+    ]
+  },
+  "73": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 73,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      30,
+      41
+    ]
+  },
+  "74": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 8?\nA: 2. This is because 8 is connected to 7, and 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 74,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      80,
+      1
+    ]
+  },
+  "75": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 8?\nA: 2. This is because 8 is connected to 7, and 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 75,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      88,
+      35
+    ]
+  },
+  "76": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 76,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      15,
+      84
+    ]
+  },
+  "77": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the degree of node 0?\nA: ",
+    "graph_id": 77,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ],
+    "few_shot_graph_ids": [
+      14,
+      22
+    ]
+  },
+  "78": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 6?\nA: ",
+    "graph_id": 78,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ],
+    "few_shot_graph_ids": [
+      28,
+      23
+    ]
+  },
+  "79": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 10?\nA: 2. This is because 10 is connected to 9, and 11.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 79,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      30,
+      21
+    ]
+  },
+  "80": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 13?\nA: 2. This is because 13 is connected to 12, and 14.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the degree of node 10?\nA: ",
+    "graph_id": 80,
+    "algorithm": "path",
+    "node_ids": [
+      10
+    ],
+    "few_shot_graph_ids": [
+      37,
+      94
+    ]
+  },
+  "81": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 81,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      63,
+      70
+    ]
+  },
+  "82": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 6?\nA: 1. This is because 6 is connected to and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 82,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      17,
+      12
+    ]
+  },
+  "83": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 83,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      79,
+      67
+    ]
+  },
+  "84": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 2?\nA: ",
+    "graph_id": 84,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ],
+    "few_shot_graph_ids": [
+      97,
+      2
+    ]
+  },
+  "85": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nQ: What is the degree of node 6?\nA: 1. This is because 6 is connected to and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 85,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      82,
+      6
+    ]
+  },
+  "86": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 11?\nA: 2. This is because 11 is connected to 10, and 12.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 12?\nA: 2. This is because 12 is connected to 11, and 13.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 86,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      45,
+      26
+    ]
+  },
+  "87": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 13?\nA: ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the degree of node 13?\nA: ",
+    "graph_id": 87,
+    "algorithm": "path",
+    "node_ids": [
+      13
+    ],
+    "few_shot_graph_ids": [
+      91,
+      74
+    ]
+  },
+  "88": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the degree of node 8?\nA: ",
+    "graph_id": 88,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ],
+    "few_shot_graph_ids": [
+      58,
+      99
+    ]
+  },
+  "89": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 89,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      23,
+      71
+    ]
+  },
+  "90": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 12?\nA: ",
+    "answer": "1.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the degree of node 12?\nA: ",
+    "graph_id": 90,
+    "algorithm": "path",
+    "node_ids": [
+      12
+    ],
+    "few_shot_graph_ids": [
+      48,
+      54
+    ]
+  },
+  "91": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the degree of node 9?\nA: ",
+    "graph_id": 91,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ],
+    "few_shot_graph_ids": [
+      96,
+      5
+    ]
+  },
+  "92": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nQ: What is the degree of node 8?\nA: 2. This is because 8 is connected to 7, and 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 2?\nA: 2. This is because 2 is connected to 1, and 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 92,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      1,
+      69
+    ]
+  },
+  "93": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 5?\nA: 2. This is because 5 is connected to 4, and 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 15?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the degree of node 15?\nA: ",
+    "graph_id": 93,
+    "algorithm": "path",
+    "node_ids": [
+      15
+    ],
+    "few_shot_graph_ids": [
+      78,
+      75
+    ]
+  },
+  "94": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 6?\nA: 2. This is because 6 is connected to 5, and 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nQ: What is the degree of node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the degree of node 3?\nA: ",
+    "graph_id": 94,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ],
+    "few_shot_graph_ids": [
+      97,
+      74
+    ]
+  },
+  "95": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 12?\nA: 2. This is because 12 is connected to 11, and 13.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nQ: What is the degree of node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the degree of node 5?\nA: ",
+    "graph_id": 95,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ],
+    "few_shot_graph_ids": [
+      39,
+      26
+    ]
+  },
+  "96": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 9?\nA: 2. This is because 9 is connected to 8, and 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nQ: What is the degree of node 4?\nA: 2. This is because 4 is connected to 3, and 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the degree of node 4?\nA: ",
+    "graph_id": 96,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ],
+    "few_shot_graph_ids": [
+      90,
+      50
+    ]
+  },
+  "97": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 3?\nA: 2. This is because 3 is connected to 2, and 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the degree of node 1?\nA: ",
+    "graph_id": 97,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ],
+    "few_shot_graph_ids": [
+      96,
+      49
+    ]
+  },
+  "98": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nQ: What is the degree of node 0?\nA: 1. This is because 0 is connected to and 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nQ: What is the degree of node 10?\nA: ",
+    "answer": "1.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the degree of node 10?\nA: ",
+    "graph_id": 98,
+    "algorithm": "path",
+    "node_ids": [
+      10
+    ],
+    "few_shot_graph_ids": [
+      21,
+      61
+    ]
+  },
+  "99": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nQ: What is the degree of node 1?\nA: 2. This is because 1 is connected to 0, and 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nQ: What is the degree of node 13?\nA: 2. This is because 13 is connected to 12, and 14.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nQ: What is the degree of node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the degree of node 0?\nA: ",
+    "graph_id": 99,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ],
+    "few_shot_graph_ids": [
+      9,
+      87
+    ]
+  }
+}

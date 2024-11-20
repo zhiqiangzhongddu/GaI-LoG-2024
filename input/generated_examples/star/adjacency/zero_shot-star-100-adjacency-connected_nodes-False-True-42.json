@@ -1,0 +1,1202 @@
+{
+  "0": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 0,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "1": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 1,
+    "algorithm": "star",
+    "node_ids": [
+      5
+    ]
+  },
+  "2": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "graph_id": 2,
+    "algorithm": "star",
+    "node_ids": [
+      10
+    ]
+  },
+  "3": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "graph_id": 3,
+    "algorithm": "star",
+    "node_ids": [
+      9
+    ]
+  },
+  "4": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 4,
+    "algorithm": "star",
+    "node_ids": [
+      3
+    ]
+  },
+  "5": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 5,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "6": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 6,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "7": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 7,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "8": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 8,
+    "algorithm": "star",
+    "node_ids": [
+      2
+    ]
+  },
+  "9": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 9,
+    "algorithm": "star",
+    "node_ids": [
+      2
+    ]
+  },
+  "10": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "graph_id": 10,
+    "algorithm": "star",
+    "node_ids": [
+      11
+    ]
+  },
+  "11": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 11,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "12": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 12,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "13": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "graph_id": 13,
+    "algorithm": "star",
+    "node_ids": [
+      8
+    ]
+  },
+  "14": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 14,
+    "algorithm": "star",
+    "node_ids": [
+      3
+    ]
+  },
+  "15": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "graph_id": 15,
+    "algorithm": "star",
+    "node_ids": [
+      14
+    ]
+  },
+  "16": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 16,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "17": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 17,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "18": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "graph_id": 18,
+    "algorithm": "star",
+    "node_ids": [
+      8
+    ]
+  },
+  "19": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 19,
+    "algorithm": "star",
+    "node_ids": [
+      3
+    ]
+  },
+  "20": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 20,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "21": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 21,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "22": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "graph_id": 22,
+    "algorithm": "star",
+    "node_ids": [
+      10
+    ]
+  },
+  "23": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 23,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "24": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "graph_id": 24,
+    "algorithm": "star",
+    "node_ids": [
+      8
+    ]
+  },
+  "25": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 25,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "26": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 26,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "27": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 27,
+    "algorithm": "star",
+    "node_ids": [
+      2
+    ]
+  },
+  "28": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 28,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "29": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 29,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "30": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "graph_id": 30,
+    "algorithm": "star",
+    "node_ids": [
+      9
+    ]
+  },
+  "31": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 31,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "32": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 32,
+    "algorithm": "star",
+    "node_ids": [
+      5
+    ]
+  },
+  "33": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 33,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "34": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 34,
+    "algorithm": "star",
+    "node_ids": [
+      3
+    ]
+  },
+  "35": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 35,
+    "algorithm": "star",
+    "node_ids": [
+      6
+    ]
+  },
+  "36": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 36,
+    "algorithm": "star",
+    "node_ids": [
+      3
+    ]
+  },
+  "37": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "graph_id": 37,
+    "algorithm": "star",
+    "node_ids": [
+      16
+    ]
+  },
+  "38": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 38,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "39": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "graph_id": 39,
+    "algorithm": "star",
+    "node_ids": [
+      16
+    ]
+  },
+  "40": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 40,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "41": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 41,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "42": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 42,
+    "algorithm": "star",
+    "node_ids": [
+      5
+    ]
+  },
+  "43": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 43,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "44": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 44,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "45": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "graph_id": 45,
+    "algorithm": "star",
+    "node_ids": [
+      12
+    ]
+  },
+  "46": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 46,
+    "algorithm": "star",
+    "node_ids": [
+      2
+    ]
+  },
+  "47": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 47,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "48": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 48,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "49": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 49,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "50": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 50,
+    "algorithm": "star",
+    "node_ids": [
+      2
+    ]
+  },
+  "51": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 51,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "52": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "graph_id": 52,
+    "algorithm": "star",
+    "node_ids": [
+      8
+    ]
+  },
+  "53": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 53,
+    "algorithm": "star",
+    "node_ids": [
+      3
+    ]
+  },
+  "54": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 54,
+    "algorithm": "star",
+    "node_ids": [
+      2
+    ]
+  },
+  "55": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 55,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "56": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "graph_id": 56,
+    "algorithm": "star",
+    "node_ids": [
+      14
+    ]
+  },
+  "57": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 57,
+    "algorithm": "star",
+    "node_ids": [
+      5
+    ]
+  },
+  "58": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "graph_id": 58,
+    "algorithm": "star",
+    "node_ids": [
+      12
+    ]
+  },
+  "59": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 59,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "60": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "graph_id": 60,
+    "algorithm": "star",
+    "node_ids": [
+      16
+    ]
+  },
+  "61": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 61,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "62": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 62,
+    "algorithm": "star",
+    "node_ids": [
+      5
+    ]
+  },
+  "63": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 63,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "64": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 64,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "65": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 65,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "66": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 66,
+    "algorithm": "star",
+    "node_ids": [
+      6
+    ]
+  },
+  "67": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 67,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "68": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6, 7, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 68,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "69": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 69,
+    "algorithm": "star",
+    "node_ids": [
+      2
+    ]
+  },
+  "70": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 70,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "71": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 71,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "72": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 72,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "73": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 73,
+    "algorithm": "star",
+    "node_ids": [
+      1
+    ]
+  },
+  "74": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "graph_id": 74,
+    "algorithm": "star",
+    "node_ids": [
+      12
+    ]
+  },
+  "75": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 75,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "76": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 76,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "77": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 77,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "78": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 78,
+    "algorithm": "star",
+    "node_ids": [
+      6
+    ]
+  },
+  "79": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "graph_id": 79,
+    "algorithm": "star",
+    "node_ids": [
+      11
+    ]
+  },
+  "80": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 80,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "81": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "graph_id": 81,
+    "algorithm": "star",
+    "node_ids": [
+      10
+    ]
+  },
+  "82": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 82,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "83": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 83,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "84": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 84,
+    "algorithm": "star",
+    "node_ids": [
+      3
+    ]
+  },
+  "85": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 85,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "86": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 86,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "87": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 87,
+    "algorithm": "star",
+    "node_ids": [
+      5
+    ]
+  },
+  "88": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 88,
+    "algorithm": "star",
+    "node_ids": [
+      7
+    ]
+  },
+  "89": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "graph_id": 89,
+    "algorithm": "star",
+    "node_ids": [
+      11
+    ]
+  },
+  "90": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "graph_id": 90,
+    "algorithm": "star",
+    "node_ids": [
+      12
+    ]
+  },
+  "91": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "graph_id": 91,
+    "algorithm": "star",
+    "node_ids": [
+      16
+    ]
+  },
+  "92": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "graph_id": 92,
+    "algorithm": "star",
+    "node_ids": [
+      13
+    ]
+  },
+  "93": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "graph_id": 93,
+    "algorithm": "star",
+    "node_ids": [
+      14
+    ]
+  },
+  "94": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 94,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "95": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 95,
+    "algorithm": "star",
+    "node_ids": [
+      4
+    ]
+  },
+  "96": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "answer": "1, 2, 3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 96,
+    "algorithm": "star",
+    "node_ids": [
+      0
+    ]
+  },
+  "97": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 97,
+    "algorithm": "star",
+    "node_ids": [
+      2
+    ]
+  },
+  "98": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 98,
+    "algorithm": "star",
+    "node_ids": [
+      6
+    ]
+  },
+  "99": {
+    "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 99,
+    "algorithm": "star",
+    "node_ids": [
+      6
+    ]
+  }
+}

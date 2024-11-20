@@ -1,0 +1,1402 @@
+{
+  "0": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 0,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      21,
+      24
+    ]
+  },
+  "1": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 1,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      8,
+      38
+    ]
+  },
+  "2": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 2,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      32,
+      83
+    ]
+  },
+  "3": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 3,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      69,
+      32
+    ]
+  },
+  "4": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 4,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      23,
+      47
+    ]
+  },
+  "5": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 5,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      58,
+      58
+    ]
+  },
+  "6": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 6,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      44,
+      63
+    ]
+  },
+  "7": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 7,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      77,
+      33
+    ]
+  },
+  "8": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 8,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      14,
+      91
+    ]
+  },
+  "9": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 9,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      70,
+      46
+    ]
+  },
+  "10": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 10,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      36,
+      5
+    ]
+  },
+  "11": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 11,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      36,
+      79
+    ]
+  },
+  "12": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 12,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      44,
+      14
+    ]
+  },
+  "13": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 13,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      37,
+      55
+    ]
+  },
+  "14": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 14,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      97,
+      77
+    ]
+  },
+  "15": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 15,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      39,
+      48
+    ]
+  },
+  "16": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 16,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      58,
+      36
+    ]
+  },
+  "17": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 17,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      23,
+      0
+    ]
+  },
+  "18": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 18,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      42,
+      55
+    ]
+  },
+  "19": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 19,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      4,
+      16
+    ]
+  },
+  "20": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 20,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      56,
+      62
+    ]
+  },
+  "21": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 21,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      44,
+      44
+    ]
+  },
+  "22": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 22,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      46,
+      82
+    ]
+  },
+  "23": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 23,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      92,
+      3
+    ]
+  },
+  "24": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 24,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      99,
+      5
+    ]
+  },
+  "25": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 25,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      44,
+      86
+    ]
+  },
+  "26": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 26,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      6,
+      25
+    ]
+  },
+  "27": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 27,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      58,
+      55
+    ]
+  },
+  "28": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 28,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      9,
+      9
+    ]
+  },
+  "29": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 29,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      99,
+      99
+    ]
+  },
+  "30": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 30,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      42,
+      21
+    ]
+  },
+  "31": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 31,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      66,
+      47
+    ]
+  },
+  "32": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 32,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      42,
+      4
+    ]
+  },
+  "33": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 33,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      89,
+      41
+    ]
+  },
+  "34": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 34,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      62,
+      3
+    ]
+  },
+  "35": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 35,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      45,
+      24
+    ]
+  },
+  "36": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 36,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      48,
+      71
+    ]
+  },
+  "37": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 37,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      7,
+      3
+    ]
+  },
+  "38": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 38,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      23,
+      4
+    ]
+  },
+  "39": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 39,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      30,
+      96
+    ]
+  },
+  "40": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 40,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      71,
+      36
+    ]
+  },
+  "41": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 41,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      63,
+      44
+    ]
+  },
+  "42": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 42,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      15,
+      77
+    ]
+  },
+  "43": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 43,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      11,
+      85
+    ]
+  },
+  "44": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 44,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      55,
+      9
+    ]
+  },
+  "45": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 45,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      14,
+      85
+    ]
+  },
+  "46": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 46,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      90,
+      56
+    ]
+  },
+  "47": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 47,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      94,
+      63
+    ]
+  },
+  "48": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 48,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      74,
+      3
+    ]
+  },
+  "49": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 49,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      61,
+      16
+    ]
+  },
+  "50": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 50,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      23,
+      2
+    ]
+  },
+  "51": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 51,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      34,
+      46
+    ]
+  },
+  "52": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 52,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      49,
+      29
+    ]
+  },
+  "53": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 53,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      4,
+      34
+    ]
+  },
+  "54": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 54,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      37,
+      98
+    ]
+  },
+  "55": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 55,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      38,
+      94
+    ]
+  },
+  "56": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 56,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      63,
+      92
+    ]
+  },
+  "57": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 57,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      20,
+      95
+    ]
+  },
+  "58": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 58,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      91,
+      54
+    ]
+  },
+  "59": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 59,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      40,
+      51
+    ]
+  },
+  "60": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 60,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      12,
+      67
+    ]
+  },
+  "61": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 61,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      15,
+      0
+    ]
+  },
+  "62": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 62,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      22,
+      75
+    ]
+  },
+  "63": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 63,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      50,
+      69
+    ]
+  },
+  "64": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 64,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      28,
+      96
+    ]
+  },
+  "65": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 65,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      87,
+      34
+    ]
+  },
+  "66": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 66,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      32,
+      28
+    ]
+  },
+  "67": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 67,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      11,
+      32
+    ]
+  },
+  "68": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 68,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      4,
+      88
+    ]
+  },
+  "69": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 69,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      18,
+      37
+    ]
+  },
+  "70": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 70,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      91,
+      77
+    ]
+  },
+  "71": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 71,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      69,
+      32
+    ]
+  },
+  "72": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 72,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      83,
+      86
+    ]
+  },
+  "73": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 73,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      7,
+      28
+    ]
+  },
+  "74": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 74,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      2,
+      65
+    ]
+  },
+  "75": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 75,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      26,
+      22
+    ]
+  },
+  "76": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 76,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      42,
+      50
+    ]
+  },
+  "77": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 77,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      24,
+      60
+    ]
+  },
+  "78": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 78,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      19,
+      24
+    ]
+  },
+  "79": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 79,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      63,
+      44
+    ]
+  },
+  "80": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 80,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      20,
+      70
+    ]
+  },
+  "81": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 81,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      45,
+      14
+    ]
+  },
+  "82": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 82,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      37,
+      75
+    ]
+  },
+  "83": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 83,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      72,
+      43
+    ]
+  },
+  "84": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 84,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      7,
+      16
+    ]
+  },
+  "85": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 85,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      42,
+      8
+    ]
+  },
+  "86": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 86,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      60,
+      20
+    ]
+  },
+  "87": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 87,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      33,
+      42
+    ]
+  },
+  "88": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 88,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      68,
+      6
+    ]
+  },
+  "89": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 89,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      12,
+      60
+    ]
+  },
+  "90": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 90,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      46,
+      40
+    ]
+  },
+  "91": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 91,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      14,
+      83
+    ]
+  },
+  "92": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16) (16, 17) (17, 18).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 92,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      93,
+      39
+    ]
+  },
+  "93": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 93,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      11,
+      33
+    ]
+  },
+  "94": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 94,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      1,
+      92
+    ]
+  },
+  "95": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 95,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      50,
+      69
+    ]
+  },
+  "96": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 96,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      32,
+      9
+    ]
+  },
+  "97": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15) (15, 16).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13) (13, 14) (14, 15).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 97,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      60,
+      81
+    ]
+  },
+  "98": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 98,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      76,
+      69
+    ]
+  },
+  "99": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12) (12, 13).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9) (9, 10) (10, 11) (11, 12).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: 0.No three nodes form a triangle of edges.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (1, 2) (2, 3) (3, 4) (4, 5) (5, 6) (6, 7) (7, 8) (8, 9).\nLet's construct the graph with the nodes and edges first.\nQ: How many triangles are in this graph?\nA: ",
+    "answer": "0.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many triangles are in this graph?\nA: ",
+    "graph_id": 99,
+    "algorithm": "path",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      34,
+      50
+    ]
+  }
+}

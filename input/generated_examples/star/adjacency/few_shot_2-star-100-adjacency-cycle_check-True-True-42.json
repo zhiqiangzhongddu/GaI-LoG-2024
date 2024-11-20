@@ -1,0 +1,1402 @@
+{
+  "0": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 0,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      64,
+      40
+    ]
+  },
+  "1": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 1,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      49,
+      59
+    ]
+  },
+  "2": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 2,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      50,
+      16
+    ]
+  },
+  "3": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 3,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      80,
+      77
+    ]
+  },
+  "4": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 4,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      25,
+      76
+    ]
+  },
+  "5": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 5,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      72,
+      43
+    ]
+  },
+  "6": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 6,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      78,
+      23
+    ]
+  },
+  "7": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 7,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      48,
+      82
+    ]
+  },
+  "8": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 8,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      82,
+      26
+    ]
+  },
+  "9": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 9,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      80,
+      61
+    ]
+  },
+  "10": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 10,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      63,
+      39
+    ]
+  },
+  "11": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 11,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      95,
+      96
+    ]
+  },
+  "12": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 12,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      25,
+      13
+    ]
+  },
+  "13": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 13,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      99,
+      80
+    ]
+  },
+  "14": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 14,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      89,
+      99
+    ]
+  },
+  "15": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 15,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      73,
+      11
+    ]
+  },
+  "16": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 16,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      9,
+      46
+    ]
+  },
+  "17": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 17,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      60,
+      54
+    ]
+  },
+  "18": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 18,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      45,
+      97
+    ]
+  },
+  "19": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 19,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      40,
+      64
+    ]
+  },
+  "20": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 20,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      18,
+      11
+    ]
+  },
+  "21": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 21,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      74,
+      12
+    ]
+  },
+  "22": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 22,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      90,
+      2
+    ]
+  },
+  "23": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 23,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      56,
+      18
+    ]
+  },
+  "24": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 24,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      98,
+      21
+    ]
+  },
+  "25": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 25,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      9,
+      70
+    ]
+  },
+  "26": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 26,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      46,
+      5
+    ]
+  },
+  "27": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 27,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      54,
+      31
+    ]
+  },
+  "28": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 28,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      69,
+      95
+    ]
+  },
+  "29": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 29,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      31,
+      19
+    ]
+  },
+  "30": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 30,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      71,
+      90
+    ]
+  },
+  "31": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 31,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      65,
+      9
+    ]
+  },
+  "32": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 32,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      94,
+      45
+    ]
+  },
+  "33": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 33,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      54,
+      40
+    ]
+  },
+  "34": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 34,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      37,
+      65
+    ]
+  },
+  "35": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 35,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      80,
+      72
+    ]
+  },
+  "36": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 36,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      32,
+      14
+    ]
+  },
+  "37": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 37,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      32,
+      60
+    ]
+  },
+  "38": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 38,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      18,
+      91
+    ]
+  },
+  "39": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 39,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      0,
+      79
+    ]
+  },
+  "40": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 40,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      80,
+      38
+    ]
+  },
+  "41": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 41,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      1,
+      13
+    ]
+  },
+  "42": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 42,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      83,
+      53
+    ]
+  },
+  "43": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 43,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      42,
+      65
+    ]
+  },
+  "44": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 44,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      87,
+      50
+    ]
+  },
+  "45": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 45,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      37,
+      15
+    ]
+  },
+  "46": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 46,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      39,
+      37
+    ]
+  },
+  "47": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 47,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      79,
+      11
+    ]
+  },
+  "48": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 48,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      40,
+      75
+    ]
+  },
+  "49": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 49,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      83,
+      33
+    ]
+  },
+  "50": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 50,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      60,
+      8
+    ]
+  },
+  "51": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 51,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      86,
+      87
+    ]
+  },
+  "52": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 52,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      64,
+      51
+    ]
+  },
+  "53": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 53,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      7,
+      94
+    ]
+  },
+  "54": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 54,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      86,
+      18
+    ]
+  },
+  "55": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 55,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      38,
+      38
+    ]
+  },
+  "56": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 56,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      93,
+      79
+    ]
+  },
+  "57": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 57,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      85,
+      99
+    ]
+  },
+  "58": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 58,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      70,
+      89
+    ]
+  },
+  "59": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 59,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      96,
+      38
+    ]
+  },
+  "60": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 60,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      93,
+      80
+    ]
+  },
+  "61": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 61,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      56,
+      17
+    ]
+  },
+  "62": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 62,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      50,
+      51
+    ]
+  },
+  "63": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 63,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      26,
+      18
+    ]
+  },
+  "64": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 64,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      0,
+      33
+    ]
+  },
+  "65": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 65,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      45,
+      66
+    ]
+  },
+  "66": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 66,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      22,
+      59
+    ]
+  },
+  "67": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 67,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      69,
+      4
+    ]
+  },
+  "68": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 68,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      66,
+      47
+    ]
+  },
+  "69": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 69,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      68,
+      60
+    ]
+  },
+  "70": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 70,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      67,
+      55
+    ]
+  },
+  "71": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 71,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      66,
+      85
+    ]
+  },
+  "72": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 72,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      47,
+      26
+    ]
+  },
+  "73": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 73,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      9,
+      59
+    ]
+  },
+  "74": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 74,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      1,
+      49
+    ]
+  },
+  "75": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 75,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      90,
+      13
+    ]
+  },
+  "76": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 76,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      49,
+      18
+    ]
+  },
+  "77": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 77,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      58,
+      38
+    ]
+  },
+  "78": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 78,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      59,
+      98
+    ]
+  },
+  "79": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 79,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      84,
+      81
+    ]
+  },
+  "80": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 80,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      74,
+      10
+    ]
+  },
+  "81": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 81,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      98,
+      24
+    ]
+  },
+  "82": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 82,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      55,
+      83
+    ]
+  },
+  "83": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 83,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      55,
+      36
+    ]
+  },
+  "84": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 84,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      8,
+      7
+    ]
+  },
+  "85": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 85,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      16,
+      64
+    ]
+  },
+  "86": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 86,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      58,
+      10
+    ]
+  },
+  "87": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 87,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      38,
+      19
+    ]
+  },
+  "88": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 88,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      22,
+      83
+    ]
+  },
+  "89": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 89,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      43,
+      61
+    ]
+  },
+  "90": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 90,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      87,
+      49
+    ]
+  },
+  "91": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 91,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      22,
+      67
+    ]
+  },
+  "92": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 92,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      83,
+      34
+    ]
+  },
+  "93": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 93,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      58,
+      29
+    ]
+  },
+  "94": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 94,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      93,
+      39
+    ]
+  },
+  "95": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 95,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      58,
+      23
+    ]
+  },
+  "96": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 96,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      37,
+      67
+    ]
+  },
+  "97": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 97,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      38,
+      23
+    ]
+  },
+  "98": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 98,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      46,
+      29
+    ]
+  },
+  "99": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: No, there is no cycle.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: Is there a cycle in this graph?\nA: ",
+    "answer": "No, there is no cycle.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a cycle in this graph?\nA: ",
+    "graph_id": 99,
+    "algorithm": "star",
+    "node_ids": [],
+    "few_shot_graph_ids": [
+      13,
+      16
+    ]
+  }
+}

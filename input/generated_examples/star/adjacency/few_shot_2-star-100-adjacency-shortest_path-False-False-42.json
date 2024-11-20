@@ -1,0 +1,1702 @@
+{
+  "0": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 11 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 13 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 13 to node 7?\nA: ",
+    "graph_id": 0,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      7
+    ],
+    "few_shot_graph_ids": [
+      27,
+      33
+    ]
+  },
+  "1": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 5 to node 10?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 1 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: What is the length of the shortest path from node 3 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 7?\nA: ",
+    "graph_id": 1,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      7
+    ],
+    "few_shot_graph_ids": [
+      63,
+      93
+    ]
+  },
+  "2": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 9 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 4 to node 11?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 11?\nA: ",
+    "graph_id": 2,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      11
+    ],
+    "few_shot_graph_ids": [
+      11,
+      56
+    ]
+  },
+  "3": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 5 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 5?\nA: ",
+    "graph_id": 3,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      5
+    ],
+    "few_shot_graph_ids": [
+      94,
+      95
+    ]
+  },
+  "4": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 15 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "graph_id": 4,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      23,
+      12
+    ]
+  },
+  "5": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "graph_id": 5,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      57,
+      41
+    ]
+  },
+  "6": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 0 to node 1?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 9 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 9 to node 7?\nA: ",
+    "graph_id": 6,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      7
+    ],
+    "few_shot_graph_ids": [
+      9,
+      96
+    ]
+  },
+  "7": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 10 to node 14?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 15 to node 16?\nA: ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the length of the shortest path from node 15 to node 16?\nA: ",
+    "graph_id": 7,
+    "algorithm": "star",
+    "node_ids": [
+      15,
+      16
+    ],
+    "few_shot_graph_ids": [
+      96,
+      35
+    ]
+  },
+  "8": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 4 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 14 to node 11?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 14 to node 11?\nA: ",
+    "graph_id": 8,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      11
+    ],
+    "few_shot_graph_ids": [
+      15,
+      28
+    ]
+  },
+  "9": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 16 to node 11?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 5 to node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 1?\nA: ",
+    "graph_id": 9,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      1
+    ],
+    "few_shot_graph_ids": [
+      23,
+      45
+    ]
+  },
+  "10": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 8 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 8 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 11 to node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 11 to node 10?\nA: ",
+    "graph_id": 10,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      10
+    ],
+    "few_shot_graph_ids": [
+      37,
+      38
+    ]
+  },
+  "11": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 10 to node 12?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 3 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "graph_id": 11,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      22,
+      34
+    ]
+  },
+  "12": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 12 to node 13?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 9 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "graph_id": 12,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      1
+    ],
+    "few_shot_graph_ids": [
+      87,
+      52
+    ]
+  },
+  "13": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 0 to node 7?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 0 to node 1?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: What is the length of the shortest path from node 7 to node 11?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 11?\nA: ",
+    "graph_id": 13,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      11
+    ],
+    "few_shot_graph_ids": [
+      72,
+      43
+    ]
+  },
+  "14": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 12 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 3 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 0 to node 4?\nA: ",
+    "answer": "1.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 4?\nA: ",
+    "graph_id": 14,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      4
+    ],
+    "few_shot_graph_ids": [
+      8,
+      67
+    ]
+  },
+  "15": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 1 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 3 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 8 to node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 2?\nA: ",
+    "graph_id": 15,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      2
+    ],
+    "few_shot_graph_ids": [
+      66,
+      14
+    ]
+  },
+  "16": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 3 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 1 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 8 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 7?\nA: ",
+    "graph_id": 16,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      7
+    ],
+    "few_shot_graph_ids": [
+      49,
+      17
+    ]
+  },
+  "17": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 9 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 15 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 5 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 0?\nA: ",
+    "graph_id": 17,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      0
+    ],
+    "few_shot_graph_ids": [
+      56,
+      71
+    ]
+  },
+  "18": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 15 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "graph_id": 18,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      6
+    ],
+    "few_shot_graph_ids": [
+      85,
+      71
+    ]
+  },
+  "19": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 8 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 15 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 5?\nA: ",
+    "graph_id": 19,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      5
+    ],
+    "few_shot_graph_ids": [
+      31,
+      7
+    ]
+  },
+  "20": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 8 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "graph_id": 20,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      5
+    ],
+    "few_shot_graph_ids": [
+      62,
+      37
+    ]
+  },
+  "21": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 8 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 2 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "graph_id": 21,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      92,
+      59
+    ]
+  },
+  "22": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 3 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 1 to node 8?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 13 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 13 to node 3?\nA: ",
+    "graph_id": 22,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      3
+    ],
+    "few_shot_graph_ids": [
+      67,
+      32
+    ]
+  },
+  "23": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 4 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 4 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "graph_id": 23,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      8
+    ],
+    "few_shot_graph_ids": [
+      15,
+      40
+    ]
+  },
+  "24": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 4 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 8 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 5 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 7?\nA: ",
+    "graph_id": 24,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      7
+    ],
+    "few_shot_graph_ids": [
+      97,
+      18
+    ]
+  },
+  "25": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 4 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 8 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "graph_id": 25,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      0
+    ],
+    "few_shot_graph_ids": [
+      83,
+      18
+    ]
+  },
+  "26": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 8 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 8 to node 12?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 12?\nA: ",
+    "graph_id": 26,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      12
+    ],
+    "few_shot_graph_ids": [
+      91,
+      84
+    ]
+  },
+  "27": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 11 to node 18?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 9 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 3 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 0?\nA: ",
+    "graph_id": 27,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      0
+    ],
+    "few_shot_graph_ids": [
+      16,
+      47
+    ]
+  },
+  "28": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 6 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "answer": "1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "graph_id": 28,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      1
+    ],
+    "few_shot_graph_ids": [
+      23,
+      42
+    ]
+  },
+  "29": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 10 to node 14?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 5 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "graph_id": 29,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      4
+    ],
+    "few_shot_graph_ids": [
+      35,
+      24
+    ]
+  },
+  "30": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 10 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 5?\nA: ",
+    "graph_id": 30,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      5
+    ],
+    "few_shot_graph_ids": [
+      79,
+      79
+    ]
+  },
+  "31": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 8 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 4 to node 11?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "graph_id": 31,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      4
+    ],
+    "few_shot_graph_ids": [
+      50,
+      3
+    ]
+  },
+  "32": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 8 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "graph_id": 32,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      5,
+      38
+    ]
+  },
+  "33": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 9 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 16 to node 11?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "answer": "1.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "graph_id": 33,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      30,
+      45
+    ]
+  },
+  "34": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 5 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 10 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 5?\nA: ",
+    "graph_id": 34,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      5
+    ],
+    "few_shot_graph_ids": [
+      24,
+      79
+    ]
+  },
+  "35": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 2 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 10 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 3 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 0?\nA: ",
+    "graph_id": 35,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      0
+    ],
+    "few_shot_graph_ids": [
+      59,
+      60
+    ]
+  },
+  "36": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 7 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 10 to node 12?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "answer": "1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "graph_id": 36,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      10,
+      22
+    ]
+  },
+  "37": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 9 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 10 to node 12?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 13 to node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 13 to node 10?\nA: ",
+    "graph_id": 37,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      10
+    ],
+    "few_shot_graph_ids": [
+      47,
+      22
+    ]
+  },
+  "38": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: What is the length of the shortest path from node 6 to node 10?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 15 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "graph_id": 38,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      4
+    ],
+    "few_shot_graph_ids": [
+      13,
+      71
+    ]
+  },
+  "39": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 4 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 18 to node 13?\nA: ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the length of the shortest path from node 18 to node 13?\nA: ",
+    "graph_id": 39,
+    "algorithm": "star",
+    "node_ids": [
+      18,
+      13
+    ],
+    "few_shot_graph_ids": [
+      83,
+      5
+    ]
+  },
+  "40": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 5 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 11 to node 18?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 9 to node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 9 to node 2?\nA: ",
+    "graph_id": 40,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      2
+    ],
+    "few_shot_graph_ids": [
+      90,
+      16
+    ]
+  },
+  "41": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 3 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "graph_id": 41,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      5
+    ],
+    "few_shot_graph_ids": [
+      5,
+      34
+    ]
+  },
+  "42": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 0 to node 7?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "answer": "1.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "graph_id": 42,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      77,
+      72
+    ]
+  },
+  "43": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 8 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "graph_id": 43,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      2
+    ],
+    "few_shot_graph_ids": [
+      85,
+      38
+    ]
+  },
+  "44": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 7 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 9 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 5 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 3?\nA: ",
+    "graph_id": 44,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      3
+    ],
+    "few_shot_graph_ids": [
+      98,
+      30
+    ]
+  },
+  "45": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 4 to node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 6?\nA: ",
+    "graph_id": 45,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      6
+    ],
+    "few_shot_graph_ids": [
+      85,
+      57
+    ]
+  },
+  "46": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 7 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "graph_id": 46,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      8
+    ],
+    "few_shot_graph_ids": [
+      4,
+      98
+    ]
+  },
+  "47": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 0 to node 8?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 5 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 13 to node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 13 to node 8?\nA: ",
+    "graph_id": 47,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      8
+    ],
+    "few_shot_graph_ids": [
+      99,
+      29
+    ]
+  },
+  "48": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 14 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 12 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 13 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 13 to node 5?\nA: ",
+    "graph_id": 48,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      5
+    ],
+    "few_shot_graph_ids": [
+      61,
+      70
+    ]
+  },
+  "49": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 1 to node 8?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 7 to node 10?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 8 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 4?\nA: ",
+    "graph_id": 49,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      4
+    ],
+    "few_shot_graph_ids": [
+      32,
+      20
+    ]
+  },
+  "50": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 3 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 3 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 12 to node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 12 to node 6?\nA: ",
+    "graph_id": 50,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      6
+    ],
+    "few_shot_graph_ids": [
+      49,
+      67
+    ]
+  },
+  "51": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 7 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 8 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "graph_id": 51,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      4
+    ],
+    "few_shot_graph_ids": [
+      10,
+      91
+    ]
+  },
+  "52": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 11 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 10 to node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 9?\nA: ",
+    "graph_id": 52,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      9
+    ],
+    "few_shot_graph_ids": [
+      48,
+      23
+    ]
+  },
+  "53": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 7 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 7 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 5?\nA: ",
+    "graph_id": 53,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      5
+    ],
+    "few_shot_graph_ids": [
+      73,
+      98
+    ]
+  },
+  "54": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 1 to node 8?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 0 to node 1?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "graph_id": 54,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      32,
+      9
+    ]
+  },
+  "55": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 3 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: What is the length of the shortest path from node 11 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 1 to node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 6?\nA: ",
+    "graph_id": 55,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      6
+    ],
+    "few_shot_graph_ids": [
+      68,
+      1
+    ]
+  },
+  "56": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 10 to node 14?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 14 to node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 14 to node 6?\nA: ",
+    "graph_id": 56,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      6
+    ],
+    "few_shot_graph_ids": [
+      35,
+      84
+    ]
+  },
+  "57": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 3 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 12 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "graph_id": 57,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      0
+    ],
+    "few_shot_graph_ids": [
+      68,
+      70
+    ]
+  },
+  "58": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 7 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 3 to node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 9?\nA: ",
+    "graph_id": 58,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      9
+    ],
+    "few_shot_graph_ids": [
+      54,
+      5
+    ]
+  },
+  "59": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 3?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "graph_id": 59,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      5
+    ],
+    "few_shot_graph_ids": [
+      21,
+      73
+    ]
+  },
+  "60": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 13 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 0 to node 1?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 6 to node 13?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 13?\nA: ",
+    "graph_id": 60,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      13
+    ],
+    "few_shot_graph_ids": [
+      58,
+      9
+    ]
+  },
+  "61": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 8 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 1 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 14 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 14 to node 0?\nA: ",
+    "graph_id": 61,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      0
+    ],
+    "few_shot_graph_ids": [
+      18,
+      17
+    ]
+  },
+  "62": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 7 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 0 to node 1?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "graph_id": 62,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      10,
+      43
+    ]
+  },
+  "63": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 6 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 12 to node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 12 to node 1?\nA: ",
+    "graph_id": 63,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      1
+    ],
+    "few_shot_graph_ids": [
+      4,
+      64
+    ]
+  },
+  "64": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 7 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 9 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 1 to node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 10?\nA: ",
+    "graph_id": 64,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      10
+    ],
+    "few_shot_graph_ids": [
+      10,
+      47
+    ]
+  },
+  "65": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 1 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 3 to node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 6?\nA: ",
+    "graph_id": 65,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      6
+    ],
+    "few_shot_graph_ids": [
+      41,
+      66
+    ]
+  },
+  "66": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 7 to node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 6?\nA: ",
+    "graph_id": 66,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      6
+    ],
+    "few_shot_graph_ids": [
+      79,
+      11
+    ]
+  },
+  "67": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 9 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 11 to node 18?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 12 to node 14?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 12 to node 14?\nA: ",
+    "graph_id": 67,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      14
+    ],
+    "few_shot_graph_ids": [
+      30,
+      16
+    ]
+  },
+  "68": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 8 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "graph_id": 68,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      37,
+      79
+    ]
+  },
+  "69": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 0 to node 1?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 13 to node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 13 to node 8?\nA: ",
+    "graph_id": 69,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      8
+    ],
+    "few_shot_graph_ids": [
+      43,
+      84
+    ]
+  },
+  "70": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 4 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 5 to node 13?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 13?\nA: ",
+    "graph_id": 70,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      13
+    ],
+    "few_shot_graph_ids": [
+      5,
+      15
+    ]
+  },
+  "71": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 1 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 16 to node 17?\nA: ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the length of the shortest path from node 16 to node 17?\nA: ",
+    "graph_id": 71,
+    "algorithm": "star",
+    "node_ids": [
+      16,
+      17
+    ],
+    "few_shot_graph_ids": [
+      95,
+      17
+    ]
+  },
+  "72": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 2 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 2 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "graph_id": 72,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      1
+    ],
+    "few_shot_graph_ids": [
+      36,
+      75
+    ]
+  },
+  "73": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 10 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: What is the length of the shortest path from node 11 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "graph_id": 73,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      0
+    ],
+    "few_shot_graph_ids": [
+      60,
+      1
+    ]
+  },
+  "74": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 4 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 8 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 12 to node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 12 to node 8?\nA: ",
+    "graph_id": 74,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      8
+    ],
+    "few_shot_graph_ids": [
+      55,
+      31
+    ]
+  },
+  "75": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 6 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 8 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 2 to node 12?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 12?\nA: ",
+    "graph_id": 75,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      12
+    ],
+    "few_shot_graph_ids": [
+      64,
+      50
+    ]
+  },
+  "76": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 3 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 4 to node 11?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "graph_id": 76,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      6
+    ],
+    "few_shot_graph_ids": [
+      67,
+      3
+    ]
+  },
+  "77": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 4 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "graph_id": 77,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      1
+    ],
+    "few_shot_graph_ids": [
+      83,
+      28
+    ]
+  },
+  "78": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 7 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 8 to node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 2?\nA: ",
+    "graph_id": 78,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      2
+    ],
+    "few_shot_graph_ids": [
+      98,
+      96
+    ]
+  },
+  "79": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 8 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 9 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the length of the shortest path from node 9 to node 3?\nA: ",
+    "graph_id": 79,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      3
+    ],
+    "few_shot_graph_ids": [
+      92,
+      5
+    ]
+  },
+  "80": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 14 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "graph_id": 80,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      8
+    ],
+    "few_shot_graph_ids": [
+      62,
+      26
+    ]
+  },
+  "81": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 10 to node 12?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 6 to node 2?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: What is the length of the shortest path from node 10 to node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 9?\nA: ",
+    "graph_id": 81,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      9
+    ],
+    "few_shot_graph_ids": [
+      22,
+      78
+    ]
+  },
+  "82": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 8 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 0 to node 8?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "graph_id": 82,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      2
+    ],
+    "few_shot_graph_ids": [
+      0,
+      99
+    ]
+  },
+  "83": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 8 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 10 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 6 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 7?\nA: ",
+    "graph_id": 83,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      7
+    ],
+    "few_shot_graph_ids": [
+      31,
+      60
+    ]
+  },
+  "84": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 1 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 3 to node 12?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 5?\nA: ",
+    "graph_id": 84,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      5
+    ],
+    "few_shot_graph_ids": [
+      66,
+      80
+    ]
+  },
+  "85": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 16 to node 11?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 0?\nA: ",
+    "graph_id": 85,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      0
+    ],
+    "few_shot_graph_ids": [
+      79,
+      45
+    ]
+  },
+  "86": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "graph_id": 86,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      1
+    ],
+    "few_shot_graph_ids": [
+      41,
+      57
+    ]
+  },
+  "87": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 4 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 8 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: What is the length of the shortest path from node 14 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the length of the shortest path from node 14 to node 7?\nA: ",
+    "graph_id": 87,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      7
+    ],
+    "few_shot_graph_ids": [
+      55,
+      31
+    ]
+  },
+  "88": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 2 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 7 to node 10?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "graph_id": 88,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ],
+    "few_shot_graph_ids": [
+      59,
+      20
+    ]
+  },
+  "89": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 2 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 2 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: What is the length of the shortest path from node 2 to node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 10?\nA: ",
+    "graph_id": 89,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      10
+    ],
+    "few_shot_graph_ids": [
+      95,
+      53
+    ]
+  },
+  "90": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 8 to node 3?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 1 to node 8?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: What is the length of the shortest path from node 8 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 4?\nA: ",
+    "graph_id": 90,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      4
+    ],
+    "few_shot_graph_ids": [
+      0,
+      32
+    ]
+  },
+  "91": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 3 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 1 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 4 to node 12?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 12?\nA: ",
+    "graph_id": 91,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      12
+    ],
+    "few_shot_graph_ids": [
+      34,
+      82
+    ]
+  },
+  "92": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 8 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 10 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: What is the length of the shortest path from node 3 to node 13?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 13?\nA: ",
+    "graph_id": 92,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      13
+    ],
+    "few_shot_graph_ids": [
+      18,
+      60
+    ]
+  },
+  "93": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 2 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 16 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 16 to node 4?\nA: ",
+    "graph_id": 93,
+    "algorithm": "star",
+    "node_ids": [
+      16,
+      4
+    ],
+    "few_shot_graph_ids": [
+      53,
+      77
+    ]
+  },
+  "94": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 3 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 2 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: What is the length of the shortest path from node 3 to node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 2?\nA: ",
+    "graph_id": 94,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      2
+    ],
+    "few_shot_graph_ids": [
+      76,
+      57
+    ]
+  },
+  "95": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: What is the length of the shortest path from node 6 to node 1?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 1 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 11 to node 10?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 11 to node 10?\nA: ",
+    "graph_id": 95,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      10
+    ],
+    "few_shot_graph_ids": [
+      46,
+      41
+    ]
+  },
+  "96": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 4 to node 9?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: What is the length of the shortest path from node 2 to node 0?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "graph_id": 96,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      15,
+      62
+    ]
+  },
+  "97": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 10 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: What is the length of the shortest path from node 0 to node 2?\nA: 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 10 to node 0?\nA: ",
+    "answer": "1.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 0?\nA: ",
+    "graph_id": 97,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      0
+    ],
+    "few_shot_graph_ids": [
+      60,
+      73
+    ]
+  },
+  "98": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: What is the length of the shortest path from node 12 to node 6?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 15 to node 5?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "graph_id": 98,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      5
+    ],
+    "few_shot_graph_ids": [
+      70,
+      7
+    ]
+  },
+  "99": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: What is the length of the shortest path from node 3 to node 7?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: What is the length of the shortest path from node 10 to node 4?\nA: 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: What is the length of the shortest path from node 3 to node 9?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 9?\nA: ",
+    "graph_id": 99,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      9
+    ],
+    "few_shot_graph_ids": [
+      39,
+      60
+    ]
+  }
+}

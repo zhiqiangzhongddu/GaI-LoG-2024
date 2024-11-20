@@ -1,0 +1,1702 @@
+{
+  "0": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 3 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 3 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 13 to node 7?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a path from node 13 to node 7?\nA: ",
+    "graph_id": 0,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      7
+    ],
+    "few_shot_graph_ids": [
+      68,
+      14
+    ]
+  },
+  "1": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 14 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 8 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 3 to node 7?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: Is there a path from node 3 to node 7?\nA: ",
+    "graph_id": 1,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      7
+    ],
+    "few_shot_graph_ids": [
+      61,
+      18
+    ]
+  },
+  "2": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 4 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 13 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 4 to node 11?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a path from node 4 to node 11?\nA: ",
+    "graph_id": 2,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      11
+    ],
+    "few_shot_graph_ids": [
+      55,
+      58
+    ]
+  },
+  "3": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 14 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 0 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 2 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a path from node 2 to node 5?\nA: ",
+    "graph_id": 3,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      5
+    ],
+    "few_shot_graph_ids": [
+      61,
+      21
+    ]
+  },
+  "4": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 5 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 1 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 4 to node 3?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a path from node 4 to node 3?\nA: ",
+    "graph_id": 4,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      29,
+      41
+    ]
+  },
+  "5": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 6 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 4 to node 3?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 4 to node 3?\nA: ",
+    "graph_id": 5,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      11,
+      46
+    ]
+  },
+  "6": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 4 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 4 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 9 to node 7?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a path from node 9 to node 7?\nA: ",
+    "graph_id": 6,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      7
+    ],
+    "few_shot_graph_ids": [
+      4,
+      97
+    ]
+  },
+  "7": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 5 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 7 to node 10?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: Is there a path from node 15 to node 16?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: Is there a path from node 15 to node 16?\nA: ",
+    "graph_id": 7,
+    "algorithm": "star",
+    "node_ids": [
+      15,
+      16
+    ],
+    "few_shot_graph_ids": [
+      94,
+      20
+    ]
+  },
+  "8": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 11 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 5 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 14 to node 11?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a path from node 14 to node 11?\nA: ",
+    "graph_id": 8,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      11
+    ],
+    "few_shot_graph_ids": [
+      1,
+      24
+    ]
+  },
+  "9": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 15 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 5 to node 1?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 5 to node 1?\nA: ",
+    "graph_id": 9,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      1
+    ],
+    "few_shot_graph_ids": [
+      11,
+      12
+    ]
+  },
+  "10": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 3 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 14 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 11 to node 10?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 11 to node 10?\nA: ",
+    "graph_id": 10,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      10
+    ],
+    "few_shot_graph_ids": [
+      49,
+      26
+    ]
+  },
+  "11": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: Is there a path from node 9 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 5 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 4 to node 3?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 4 to node 3?\nA: ",
+    "graph_id": 11,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      30,
+      24
+    ]
+  },
+  "12": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 8 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 2 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 4 to node 1?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a path from node 4 to node 1?\nA: ",
+    "graph_id": 12,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      1
+    ],
+    "few_shot_graph_ids": [
+      0,
+      59
+    ]
+  },
+  "13": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 11 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 15 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 7 to node 11?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: Is there a path from node 7 to node 11?\nA: ",
+    "graph_id": 13,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      11
+    ],
+    "few_shot_graph_ids": [
+      1,
+      12
+    ]
+  },
+  "14": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 5 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 2 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 0 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a path from node 0 to node 4?\nA: ",
+    "graph_id": 14,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      4
+    ],
+    "few_shot_graph_ids": [
+      24,
+      75
+    ]
+  },
+  "15": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 8 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 4 to node 8?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 8 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 8 to node 2?\nA: ",
+    "graph_id": 15,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      2
+    ],
+    "few_shot_graph_ids": [
+      38,
+      81
+    ]
+  },
+  "16": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 2 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 9 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: Is there a path from node 8 to node 7?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: Is there a path from node 8 to node 7?\nA: ",
+    "graph_id": 16,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      7
+    ],
+    "few_shot_graph_ids": [
+      62,
+      56
+    ]
+  },
+  "17": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 14 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 5 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 5 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a path from node 5 to node 0?\nA: ",
+    "graph_id": 17,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      0
+    ],
+    "few_shot_graph_ids": [
+      26,
+      24
+    ]
+  },
+  "18": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 5 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 8 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 5 to node 6?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a path from node 5 to node 6?\nA: ",
+    "graph_id": 18,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      6
+    ],
+    "few_shot_graph_ids": [
+      88,
+      38
+    ]
+  },
+  "19": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 10 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 0 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 2 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a path from node 2 to node 5?\nA: ",
+    "graph_id": 19,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      5
+    ],
+    "few_shot_graph_ids": [
+      60,
+      43
+    ]
+  },
+  "20": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 2 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 2 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 8 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a path from node 8 to node 5?\nA: ",
+    "graph_id": 20,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      5
+    ],
+    "few_shot_graph_ids": [
+      62,
+      62
+    ]
+  },
+  "21": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 7 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 7 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 3 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 3 to node 4?\nA: ",
+    "graph_id": 21,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      10,
+      6
+    ]
+  },
+  "22": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 7 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 4 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 13 to node 3?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 13 to node 3?\nA: ",
+    "graph_id": 22,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      3
+    ],
+    "few_shot_graph_ids": [
+      6,
+      15
+    ]
+  },
+  "23": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: Is there a path from node 12 to node 13?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 7 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 7 to node 8?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 7 to node 8?\nA: ",
+    "graph_id": 23,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      8
+    ],
+    "few_shot_graph_ids": [
+      87,
+      98
+    ]
+  },
+  "24": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 3 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 4 to node 11?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 5 to node 7?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a path from node 5 to node 7?\nA: ",
+    "graph_id": 24,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      7
+    ],
+    "few_shot_graph_ids": [
+      14,
+      3
+    ]
+  },
+  "25": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 3 to node 12?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 1 to node 8?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 4 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 4 to node 0?\nA: ",
+    "graph_id": 25,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      0
+    ],
+    "few_shot_graph_ids": [
+      80,
+      32
+    ]
+  },
+  "26": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 7 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 0 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 8 to node 12?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 8 to node 12?\nA: ",
+    "graph_id": 26,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      12
+    ],
+    "few_shot_graph_ids": [
+      98,
+      73
+    ]
+  },
+  "27": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 1 to node 8?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 15 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 3 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 3 to node 0?\nA: ",
+    "graph_id": 27,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      0
+    ],
+    "few_shot_graph_ids": [
+      32,
+      12
+    ]
+  },
+  "28": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 8 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 4 to node 11?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 0 to node 1?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a path from node 0 to node 1?\nA: ",
+    "graph_id": 28,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      1
+    ],
+    "few_shot_graph_ids": [
+      37,
+      3
+    ]
+  },
+  "29": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 10 to node 14?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 2 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 2 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a path from node 2 to node 4?\nA: ",
+    "graph_id": 29,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      4
+    ],
+    "few_shot_graph_ids": [
+      35,
+      28
+    ]
+  },
+  "30": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 12 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 14 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: Is there a path from node 10 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: Is there a path from node 10 to node 5?\nA: ",
+    "graph_id": 30,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      5
+    ],
+    "few_shot_graph_ids": [
+      70,
+      61
+    ]
+  },
+  "31": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 4 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 6 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 6 to node 4?\nA: ",
+    "graph_id": 31,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      4
+    ],
+    "few_shot_graph_ids": [
+      44,
+      55
+    ]
+  },
+  "32": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 2 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 7 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 3 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a path from node 3 to node 4?\nA: ",
+    "graph_id": 32,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      62,
+      54
+    ]
+  },
+  "33": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: Is there a path from node 2 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 6 to node 10?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 0 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 0 to node 2?\nA: ",
+    "graph_id": 33,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      79,
+      13
+    ]
+  },
+  "34": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: Is there a path from node 16 to node 11?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 1 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 10 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a path from node 10 to node 5?\nA: ",
+    "graph_id": 34,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      5
+    ],
+    "few_shot_graph_ids": [
+      45,
+      93
+    ]
+  },
+  "35": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 0 to node 8?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 2 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 3 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a path from node 3 to node 0?\nA: ",
+    "graph_id": 35,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      0
+    ],
+    "few_shot_graph_ids": [
+      99,
+      62
+    ]
+  },
+  "36": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 1 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 0 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a path from node 0 to node 2?\nA: ",
+    "graph_id": 36,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      93,
+      95
+    ]
+  },
+  "37": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 9 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 8 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 13 to node 10?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a path from node 13 to node 10?\nA: ",
+    "graph_id": 37,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      10
+    ],
+    "few_shot_graph_ids": [
+      47,
+      0
+    ]
+  },
+  "38": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 5 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 5 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a path from node 5 to node 4?\nA: ",
+    "graph_id": 38,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      4
+    ],
+    "few_shot_graph_ids": [
+      24,
+      11
+    ]
+  },
+  "39": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 4 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: Is there a path from node 18 to node 13?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: Is there a path from node 18 to node 13?\nA: ",
+    "graph_id": 39,
+    "algorithm": "star",
+    "node_ids": [
+      18,
+      13
+    ],
+    "few_shot_graph_ids": [
+      44,
+      55
+    ]
+  },
+  "40": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 1 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 0 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 9 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a path from node 9 to node 2?\nA: ",
+    "graph_id": 40,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      2
+    ],
+    "few_shot_graph_ids": [
+      41,
+      9
+    ]
+  },
+  "41": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 4 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 6 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 3 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 3 to node 5?\nA: ",
+    "graph_id": 41,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      5
+    ],
+    "few_shot_graph_ids": [
+      97,
+      19
+    ]
+  },
+  "42": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 12 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 11 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 0 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a path from node 0 to node 2?\nA: ",
+    "graph_id": 42,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      70,
+      48
+    ]
+  },
+  "43": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 5 to node 10?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 14 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 4 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a path from node 4 to node 2?\nA: ",
+    "graph_id": 43,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      2
+    ],
+    "few_shot_graph_ids": [
+      63,
+      26
+    ]
+  },
+  "44": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 0 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 1 to node 8?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 5 to node 3?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 5 to node 3?\nA: ",
+    "graph_id": 44,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      3
+    ],
+    "few_shot_graph_ids": [
+      43,
+      32
+    ]
+  },
+  "45": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 2 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 7 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: Is there a path from node 4 to node 6?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: Is there a path from node 4 to node 6?\nA: ",
+    "graph_id": 45,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      6
+    ],
+    "few_shot_graph_ids": [
+      57,
+      6
+    ]
+  },
+  "46": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 1 to node 8?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 7 to node 8?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 7 to node 8?\nA: ",
+    "graph_id": 46,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      8
+    ],
+    "few_shot_graph_ids": [
+      44,
+      32
+    ]
+  },
+  "47": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 3 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 4 to node 8?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 13 to node 8?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a path from node 13 to node 8?\nA: ",
+    "graph_id": 47,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      8
+    ],
+    "few_shot_graph_ids": [
+      14,
+      81
+    ]
+  },
+  "48": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 4 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 6 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 13 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a path from node 13 to node 5?\nA: ",
+    "graph_id": 48,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      5
+    ],
+    "few_shot_graph_ids": [
+      40,
+      74
+    ]
+  },
+  "49": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 0 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 6 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 8 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 8 to node 4?\nA: ",
+    "graph_id": 49,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      4
+    ],
+    "few_shot_graph_ids": [
+      73,
+      42
+    ]
+  },
+  "50": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 1 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 12 to node 6?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a path from node 12 to node 6?\nA: ",
+    "graph_id": 50,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      6
+    ],
+    "few_shot_graph_ids": [
+      27,
+      41
+    ]
+  },
+  "51": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 4 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 6 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 6 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a path from node 6 to node 4?\nA: ",
+    "graph_id": 51,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      4
+    ],
+    "few_shot_graph_ids": [
+      15,
+      42
+    ]
+  },
+  "52": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 8 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 2 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 10 to node 9?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a path from node 10 to node 9?\nA: ",
+    "graph_id": 52,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      9
+    ],
+    "few_shot_graph_ids": [
+      92,
+      36
+    ]
+  },
+  "53": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 1 to node 8?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 0 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 7 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 7 to node 5?\nA: ",
+    "graph_id": 53,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      5
+    ],
+    "few_shot_graph_ids": [
+      32,
+      72
+    ]
+  },
+  "54": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 6 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 4 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 3 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a path from node 3 to node 4?\nA: ",
+    "graph_id": 54,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      46,
+      2
+    ]
+  },
+  "55": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 2 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 9 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 1 to node 6?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a path from node 1 to node 6?\nA: ",
+    "graph_id": 55,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      6
+    ],
+    "few_shot_graph_ids": [
+      28,
+      56
+    ]
+  },
+  "56": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 6 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 12 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 14 to node 6?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 14 to node 6?\nA: ",
+    "graph_id": 56,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      6
+    ],
+    "few_shot_graph_ids": [
+      42,
+      70
+    ]
+  },
+  "57": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 4 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 4 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 2 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a path from node 2 to node 0?\nA: ",
+    "graph_id": 57,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      0
+    ],
+    "few_shot_graph_ids": [
+      2,
+      40
+    ]
+  },
+  "58": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 4 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 11 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 3 to node 9?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 3 to node 9?\nA: ",
+    "graph_id": 58,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      9
+    ],
+    "few_shot_graph_ids": [
+      55,
+      1
+    ]
+  },
+  "59": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 13 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 0 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 8 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 8 to node 5?\nA: ",
+    "graph_id": 59,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      5
+    ],
+    "few_shot_graph_ids": [
+      58,
+      25
+    ]
+  },
+  "60": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 7 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 8 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 6 to node 13?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a path from node 6 to node 13?\nA: ",
+    "graph_id": 60,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      13
+    ],
+    "few_shot_graph_ids": [
+      98,
+      18
+    ]
+  },
+  "61": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 5 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 14 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a path from node 14 to node 0?\nA: ",
+    "graph_id": 61,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      0
+    ],
+    "few_shot_graph_ids": [
+      86,
+      96
+    ]
+  },
+  "62": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 4 to node 3?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a path from node 4 to node 3?\nA: ",
+    "graph_id": 62,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      27,
+      27
+    ]
+  },
+  "63": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 5 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 3 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 12 to node 1?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a path from node 12 to node 1?\nA: ",
+    "graph_id": 63,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      1
+    ],
+    "few_shot_graph_ids": [
+      29,
+      67
+    ]
+  },
+  "64": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 0 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 1 to node 10?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a path from node 1 to node 10?\nA: ",
+    "graph_id": 64,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      10
+    ],
+    "few_shot_graph_ids": [
+      25,
+      95
+    ]
+  },
+  "65": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 6 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 8 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 3 to node 6?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a path from node 3 to node 6?\nA: ",
+    "graph_id": 65,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      6
+    ],
+    "few_shot_graph_ids": [
+      78,
+      31
+    ]
+  },
+  "66": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 4 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 8 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 7 to node 6?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 7 to node 6?\nA: ",
+    "graph_id": 66,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      6
+    ],
+    "few_shot_graph_ids": [
+      4,
+      31
+    ]
+  },
+  "67": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 8 to node 11?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 12 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 12 to node 14?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 12 to node 14?\nA: ",
+    "graph_id": 67,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      14
+    ],
+    "few_shot_graph_ids": [
+      69,
+      70
+    ]
+  },
+  "68": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 11 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 3 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 3 to node 4?\nA: ",
+    "graph_id": 68,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      27,
+      48
+    ]
+  },
+  "69": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 2 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 13 to node 8?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a path from node 13 to node 8?\nA: ",
+    "graph_id": 69,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      8
+    ],
+    "few_shot_graph_ids": [
+      44,
+      36
+    ]
+  },
+  "70": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 11 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 4 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 5 to node 13?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 5 to node 13?\nA: ",
+    "graph_id": 70,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      13
+    ],
+    "few_shot_graph_ids": [
+      33,
+      55
+    ]
+  },
+  "71": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 10 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 2 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: Is there a path from node 16 to node 17?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: Is there a path from node 16 to node 17?\nA: ",
+    "graph_id": 71,
+    "algorithm": "star",
+    "node_ids": [
+      16,
+      17
+    ],
+    "few_shot_graph_ids": [
+      60,
+      36
+    ]
+  },
+  "72": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 7 to node 10?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 8 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 7 to node 1?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a path from node 7 to node 1?\nA: ",
+    "graph_id": 72,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      1
+    ],
+    "few_shot_graph_ids": [
+      20,
+      38
+    ]
+  },
+  "73": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 9 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 2 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 2 to node 0?\nA: ",
+    "graph_id": 73,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      0
+    ],
+    "few_shot_graph_ids": [
+      52,
+      75
+    ]
+  },
+  "74": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 6 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 5 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 12 to node 8?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a path from node 12 to node 8?\nA: ",
+    "graph_id": 74,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      8
+    ],
+    "few_shot_graph_ids": [
+      42,
+      29
+    ]
+  },
+  "75": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 0 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 4 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 2 to node 12?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a path from node 2 to node 12?\nA: ",
+    "graph_id": 75,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      12
+    ],
+    "few_shot_graph_ids": [
+      43,
+      83
+    ]
+  },
+  "76": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 1 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 7 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 2 to node 6?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a path from node 2 to node 6?\nA: ",
+    "graph_id": 76,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      6
+    ],
+    "few_shot_graph_ids": [
+      93,
+      10
+    ]
+  },
+  "77": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 14 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 2 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 3 to node 1?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: Is there a path from node 3 to node 1?\nA: ",
+    "graph_id": 77,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      1
+    ],
+    "few_shot_graph_ids": [
+      26,
+      62
+    ]
+  },
+  "78": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 2 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 8 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 8 to node 2?\nA: ",
+    "graph_id": 78,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      2
+    ],
+    "few_shot_graph_ids": [
+      96,
+      77
+    ]
+  },
+  "79": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 4 to node 11?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 0 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: Is there a path from node 9 to node 3?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: Is there a path from node 9 to node 3?\nA: ",
+    "graph_id": 79,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      3
+    ],
+    "few_shot_graph_ids": [
+      3,
+      72
+    ]
+  },
+  "80": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 7 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 3 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 7 to node 8?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a path from node 7 to node 8?\nA: ",
+    "graph_id": 80,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      8
+    ],
+    "few_shot_graph_ids": [
+      6,
+      67
+    ]
+  },
+  "81": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 5 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 8 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 10 to node 9?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: Is there a path from node 10 to node 9?\nA: ",
+    "graph_id": 81,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      9
+    ],
+    "few_shot_graph_ids": [
+      90,
+      37
+    ]
+  },
+  "82": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 6 to node 2?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 4 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 1 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: Is there a path from node 1 to node 2?\nA: ",
+    "graph_id": 82,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      2
+    ],
+    "few_shot_graph_ids": [
+      78,
+      84
+    ]
+  },
+  "83": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 8 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 12 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 6 to node 7?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: Is there a path from node 6 to node 7?\nA: ",
+    "graph_id": 83,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      7
+    ],
+    "few_shot_graph_ids": [
+      91,
+      8
+    ]
+  },
+  "84": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 3 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 1 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 2 to node 5?\nA: ",
+    "graph_id": 84,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      5
+    ],
+    "few_shot_graph_ids": [
+      76,
+      23
+    ]
+  },
+  "85": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 4 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 13 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 1 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 1 to node 0?\nA: ",
+    "graph_id": 85,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      0
+    ],
+    "few_shot_graph_ids": [
+      83,
+      58
+    ]
+  },
+  "86": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 3 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nQ: Is there a path from node 0 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 7 to node 1?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a path from node 7 to node 1?\nA: ",
+    "graph_id": 86,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      1
+    ],
+    "few_shot_graph_ids": [
+      49,
+      43
+    ]
+  },
+  "87": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nQ: Is there a path from node 9 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 1 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nQ: Is there a path from node 14 to node 7?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: Is there a path from node 14 to node 7?\nA: ",
+    "graph_id": 87,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      7
+    ],
+    "few_shot_graph_ids": [
+      47,
+      41
+    ]
+  },
+  "88": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 6 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 7 to node 10?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 1 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: Is there a path from node 1 to node 4?\nA: ",
+    "graph_id": 88,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ],
+    "few_shot_graph_ids": [
+      42,
+      20
+    ]
+  },
+  "89": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nQ: Is there a path from node 15 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 2 to node 10?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: Is there a path from node 2 to node 10?\nA: ",
+    "graph_id": 89,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      10
+    ],
+    "few_shot_graph_ids": [
+      7,
+      96
+    ]
+  },
+  "90": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 8 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 2 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nQ: Is there a path from node 8 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: Is there a path from node 8 to node 4?\nA: ",
+    "graph_id": 90,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      4
+    ],
+    "few_shot_graph_ids": [
+      0,
+      96
+    ]
+  },
+  "91": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nQ: Is there a path from node 2 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 6 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 4 to node 12?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a path from node 4 to node 12?\nA: ",
+    "graph_id": 91,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      12
+    ],
+    "few_shot_graph_ids": [
+      53,
+      42
+    ]
+  },
+  "92": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nQ: Is there a path from node 3 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 8 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nQ: Is there a path from node 3 to node 13?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: Is there a path from node 3 to node 13?\nA: ",
+    "graph_id": 92,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      13
+    ],
+    "few_shot_graph_ids": [
+      14,
+      0
+    ]
+  },
+  "93": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 1 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 14 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nQ: Is there a path from node 16 to node 4?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: Is there a path from node 16 to node 4?\nA: ",
+    "graph_id": 93,
+    "algorithm": "star",
+    "node_ids": [
+      16,
+      4
+    ],
+    "few_shot_graph_ids": [
+      41,
+      26
+    ]
+  },
+  "94": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 7 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 6 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 3 to node 2?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: Is there a path from node 3 to node 2?\nA: ",
+    "graph_id": 94,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      2
+    ],
+    "few_shot_graph_ids": [
+      10,
+      64
+    ]
+  },
+  "95": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 9 to node 10?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 0 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 11 to node 10?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: Is there a path from node 11 to node 10?\nA: ",
+    "graph_id": 95,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      10
+    ],
+    "few_shot_graph_ids": [
+      65,
+      72
+    ]
+  },
+  "96": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 3 to node 0?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 0 to node 5?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nQ: Is there a path from node 4 to node 3?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: Is there a path from node 4 to node 3?\nA: ",
+    "graph_id": 96,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      76,
+      51
+    ]
+  },
+  "97": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 8 to node 9?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 0 to node 7?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 10 to node 0?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a path from node 10 to node 0?\nA: ",
+    "graph_id": 97,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      0
+    ],
+    "few_shot_graph_ids": [
+      38,
+      72
+    ]
+  },
+  "98": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 13 to node 3?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nQ: Is there a path from node 2 to node 4?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nQ: Is there a path from node 8 to node 5?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: Is there a path from node 8 to node 5?\nA: ",
+    "graph_id": 98,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      5
+    ],
+    "few_shot_graph_ids": [
+      58,
+      57
+    ]
+  },
+  "99": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nQ: Is there a path from node 9 to node 1?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nQ: Is there a path from node 11 to node 6?\nA: Yes.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nQ: Is there a path from node 3 to node 9?\nA: ",
+    "answer": "Yes.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: Is there a path from node 3 to node 9?\nA: ",
+    "graph_id": 99,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      9
+    ],
+    "few_shot_graph_ids": [
+      56,
+      1
+    ]
+  }
+}

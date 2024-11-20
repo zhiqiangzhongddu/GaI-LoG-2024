@@ -1,0 +1,1302 @@
+{
+  "0": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nQ: What is the maximum capacity of the flow from node 6 to node 9?\nA: ",
+    "answer": "74.",
+    "nnodes": 17,
+    "nedges": 136,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 9?\nA: ",
+    "graph_id": 0,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      9
+    ]
+  },
+  "1": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nQ: What is the maximum capacity of the flow from node 10 to node 7?\nA: ",
+    "answer": "61.",
+    "nnodes": 12,
+    "nedges": 66,
+    "task_description": "Q: What is the maximum capacity of the flow from node 10 to node 7?\nA: ",
+    "graph_id": 1,
+    "algorithm": "complete",
+    "node_ids": [
+      10,
+      7
+    ]
+  },
+  "2": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nQ: What is the maximum capacity of the flow from node 13 to node 3?\nA: ",
+    "answer": "74.",
+    "nnodes": 14,
+    "nedges": 91,
+    "task_description": "Q: What is the maximum capacity of the flow from node 13 to node 3?\nA: ",
+    "graph_id": 2,
+    "algorithm": "complete",
+    "node_ids": [
+      13,
+      3
+    ]
+  },
+  "3": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nQ: What is the maximum capacity of the flow from node 0 to node 8?\nA: ",
+    "answer": "74.",
+    "nnodes": 14,
+    "nedges": 91,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 8?\nA: ",
+    "graph_id": 3,
+    "algorithm": "complete",
+    "node_ids": [
+      0,
+      8
+    ]
+  },
+  "4": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to nodes 0, 2, 3, 4.\nNode 2 is connected to nodes 0, 1, 3, 4.\nNode 3 is connected to nodes 0, 1, 2, 4.\nNode 4 is connected to nodes 0, 1, 2, 3.\nQ: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "answer": "26.",
+    "nnodes": 5,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "graph_id": 4,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      4
+    ]
+  },
+  "5": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 4 to node 1?\nA: ",
+    "answer": "32.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 1?\nA: ",
+    "graph_id": 5,
+    "algorithm": "complete",
+    "node_ids": [
+      4,
+      1
+    ]
+  },
+  "6": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8.\nQ: What is the maximum capacity of the flow from node 9 to node 2?\nA: ",
+    "answer": "43.",
+    "nnodes": 10,
+    "nedges": 45,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 2?\nA: ",
+    "graph_id": 6,
+    "algorithm": "complete",
+    "node_ids": [
+      9,
+      2
+    ]
+  },
+  "7": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18.\nNode 17 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18.\nNode 18 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nQ: What is the maximum capacity of the flow from node 15 to node 0?\nA: ",
+    "answer": "108.",
+    "nnodes": 19,
+    "nedges": 171,
+    "task_description": "Q: What is the maximum capacity of the flow from node 15 to node 0?\nA: ",
+    "graph_id": 7,
+    "algorithm": "complete",
+    "node_ids": [
+      15,
+      0
+    ]
+  },
+  "8": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nQ: What is the maximum capacity of the flow from node 11 to node 10?\nA: ",
+    "answer": "84.",
+    "nnodes": 16,
+    "nedges": 120,
+    "task_description": "Q: What is the maximum capacity of the flow from node 11 to node 10?\nA: ",
+    "graph_id": 8,
+    "algorithm": "complete",
+    "node_ids": [
+      11,
+      10
+    ]
+  },
+  "9": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 6 to node 2?\nA: ",
+    "answer": "35.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 2?\nA: ",
+    "graph_id": 9,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      2
+    ]
+  },
+  "10": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 7 to node 13?\nA: ",
+    "answer": "62.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 13?\nA: ",
+    "graph_id": 10,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      13
+    ]
+  },
+  "11": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 2 to node 1?\nA: ",
+    "answer": "24.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 1?\nA: ",
+    "graph_id": 11,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      1
+    ]
+  },
+  "12": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nQ: What is the maximum capacity of the flow from node 8 to node 0?\nA: ",
+    "answer": "92.",
+    "nnodes": 16,
+    "nedges": 120,
+    "task_description": "Q: What is the maximum capacity of the flow from node 8 to node 0?\nA: ",
+    "graph_id": 12,
+    "algorithm": "complete",
+    "node_ids": [
+      8,
+      0
+    ]
+  },
+  "13": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nQ: What is the maximum capacity of the flow from node 1 to node 8?\nA: ",
+    "answer": "63.",
+    "nnodes": 12,
+    "nedges": 66,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 8?\nA: ",
+    "graph_id": 13,
+    "algorithm": "complete",
+    "node_ids": [
+      1,
+      8
+    ]
+  },
+  "14": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5.\nQ: What is the maximum capacity of the flow from node 4 to node 0?\nA: ",
+    "answer": "35.",
+    "nnodes": 7,
+    "nedges": 21,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 0?\nA: ",
+    "graph_id": 14,
+    "algorithm": "complete",
+    "node_ids": [
+      4,
+      0
+    ]
+  },
+  "15": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 6 to node 5?\nA: ",
+    "answer": "82.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 5?\nA: ",
+    "graph_id": 15,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      5
+    ]
+  },
+  "16": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18.\nNode 17 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18.\nNode 18 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nQ: What is the maximum capacity of the flow from node 3 to node 14?\nA: ",
+    "answer": "71.",
+    "nnodes": 19,
+    "nedges": 171,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 14?\nA: ",
+    "graph_id": 16,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      14
+    ]
+  },
+  "17": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5.\nQ: What is the maximum capacity of the flow from node 3 to node 0?\nA: ",
+    "answer": "26.",
+    "nnodes": 7,
+    "nedges": 21,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 0?\nA: ",
+    "graph_id": 17,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      0
+    ]
+  },
+  "18": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: ",
+    "answer": "51.",
+    "nnodes": 10,
+    "nedges": 45,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 2?\nA: ",
+    "graph_id": 18,
+    "algorithm": "complete",
+    "node_ids": [
+      1,
+      2
+    ]
+  },
+  "19": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5.\nQ: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "answer": "34.",
+    "nnodes": 7,
+    "nedges": 21,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "graph_id": 19,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      4
+    ]
+  },
+  "20": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nQ: What is the maximum capacity of the flow from node 2 to node 10?\nA: ",
+    "answer": "53.",
+    "nnodes": 13,
+    "nedges": 78,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 10?\nA: ",
+    "graph_id": 20,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      10
+    ]
+  },
+  "21": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 0 to node 3?\nA: ",
+    "answer": "24.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 3?\nA: ",
+    "graph_id": 21,
+    "algorithm": "complete",
+    "node_ids": [
+      0,
+      3
+    ]
+  },
+  "22": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 12 to node 8?\nA: ",
+    "answer": "77.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 12 to node 8?\nA: ",
+    "graph_id": 22,
+    "algorithm": "complete",
+    "node_ids": [
+      12,
+      8
+    ]
+  },
+  "23": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 5 to node 3?\nA: ",
+    "answer": "38.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 3?\nA: ",
+    "graph_id": 23,
+    "algorithm": "complete",
+    "node_ids": [
+      5,
+      3
+    ]
+  },
+  "24": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.\nQ: What is the maximum capacity of the flow from node 5 to node 4?\nA: ",
+    "answer": "36.",
+    "nnodes": 11,
+    "nedges": 55,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 4?\nA: ",
+    "graph_id": 24,
+    "algorithm": "complete",
+    "node_ids": [
+      5,
+      4
+    ]
+  },
+  "25": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 4 to node 1?\nA: ",
+    "answer": "24.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 1?\nA: ",
+    "graph_id": 25,
+    "algorithm": "complete",
+    "node_ids": [
+      4,
+      1
+    ]
+  },
+  "26": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 3 to node 8?\nA: ",
+    "answer": "70.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 8?\nA: ",
+    "graph_id": 26,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      8
+    ]
+  },
+  "27": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 1 to node 3?\nA: ",
+    "answer": "25.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 3?\nA: ",
+    "graph_id": 27,
+    "algorithm": "complete",
+    "node_ids": [
+      1,
+      3
+    ]
+  },
+  "28": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to nodes 0, 2, 3, 4.\nNode 2 is connected to nodes 0, 1, 3, 4.\nNode 3 is connected to nodes 0, 1, 2, 4.\nNode 4 is connected to nodes 0, 1, 2, 3.\nQ: What is the maximum capacity of the flow from node 2 to node 1?\nA: ",
+    "answer": "18.",
+    "nnodes": 5,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 1?\nA: ",
+    "graph_id": 28,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      1
+    ]
+  },
+  "29": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6.\nQ: What is the maximum capacity of the flow from node 3 to node 2?\nA: ",
+    "answer": "24.",
+    "nnodes": 8,
+    "nedges": 28,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 2?\nA: ",
+    "graph_id": 29,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      2
+    ]
+  },
+  "30": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17.\nNode 17 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nQ: What is the maximum capacity of the flow from node 5 to node 11?\nA: ",
+    "answer": "98.",
+    "nnodes": 18,
+    "nedges": 153,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 11?\nA: ",
+    "graph_id": 30,
+    "algorithm": "complete",
+    "node_ids": [
+      5,
+      11
+    ]
+  },
+  "31": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "answer": "40.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "graph_id": 31,
+    "algorithm": "complete",
+    "node_ids": [
+      1,
+      4
+    ]
+  },
+  "32": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.\nQ: What is the maximum capacity of the flow from node 6 to node 0?\nA: ",
+    "answer": "43.",
+    "nnodes": 11,
+    "nedges": 55,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 0?\nA: ",
+    "graph_id": 32,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      0
+    ]
+  },
+  "33": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 2 to node 6?\nA: ",
+    "answer": "80.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 6?\nA: ",
+    "graph_id": 33,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      6
+    ]
+  },
+  "34": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nQ: What is the maximum capacity of the flow from node 13 to node 2?\nA: ",
+    "answer": "65.",
+    "nnodes": 14,
+    "nedges": 91,
+    "task_description": "Q: What is the maximum capacity of the flow from node 13 to node 2?\nA: ",
+    "graph_id": 34,
+    "algorithm": "complete",
+    "node_ids": [
+      13,
+      2
+    ]
+  },
+  "35": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nQ: What is the maximum capacity of the flow from node 7 to node 6?\nA: ",
+    "answer": "98.",
+    "nnodes": 16,
+    "nedges": 120,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 6?\nA: ",
+    "graph_id": 35,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      6
+    ]
+  },
+  "36": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to nodes 0, 2, 3, 4.\nNode 2 is connected to nodes 0, 1, 3, 4.\nNode 3 is connected to nodes 0, 1, 2, 4.\nNode 4 is connected to nodes 0, 1, 2, 3.\nQ: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "answer": "26.",
+    "nnodes": 5,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "graph_id": 36,
+    "algorithm": "complete",
+    "node_ids": [
+      4,
+      3
+    ]
+  },
+  "37": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nQ: What is the maximum capacity of the flow from node 2 to node 0?\nA: ",
+    "answer": "83.",
+    "nnodes": 17,
+    "nedges": 136,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 0?\nA: ",
+    "graph_id": 37,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      0
+    ]
+  },
+  "38": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8.\nQ: What is the maximum capacity of the flow from node 4 to node 7?\nA: ",
+    "answer": "42.",
+    "nnodes": 10,
+    "nedges": 45,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 7?\nA: ",
+    "graph_id": 38,
+    "algorithm": "complete",
+    "node_ids": [
+      4,
+      7
+    ]
+  },
+  "39": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18.\nNode 17 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18.\nNode 18 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nQ: What is the maximum capacity of the flow from node 18 to node 2?\nA: ",
+    "answer": "95.",
+    "nnodes": 19,
+    "nedges": 171,
+    "task_description": "Q: What is the maximum capacity of the flow from node 18 to node 2?\nA: ",
+    "graph_id": 39,
+    "algorithm": "complete",
+    "node_ids": [
+      18,
+      2
+    ]
+  },
+  "40": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8.\nQ: What is the maximum capacity of the flow from node 7 to node 8?\nA: ",
+    "answer": "52.",
+    "nnodes": 10,
+    "nedges": 45,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 8?\nA: ",
+    "graph_id": 40,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      8
+    ]
+  },
+  "41": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 2 to node 0?\nA: ",
+    "answer": "23.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 0?\nA: ",
+    "graph_id": 41,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      0
+    ]
+  },
+  "42": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6.\nQ: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "answer": "26.",
+    "nnodes": 8,
+    "nedges": 28,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "graph_id": 42,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      4
+    ]
+  },
+  "43": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to nodes 0, 2, 3, 4.\nNode 2 is connected to nodes 0, 1, 3, 4.\nNode 3 is connected to nodes 0, 1, 2, 4.\nNode 4 is connected to nodes 0, 1, 2, 3.\nQ: What is the maximum capacity of the flow from node 2 to node 1?\nA: ",
+    "answer": "23.",
+    "nnodes": 5,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 1?\nA: ",
+    "graph_id": 43,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      1
+    ]
+  },
+  "44": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 6 to node 7?\nA: ",
+    "answer": "31.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 7?\nA: ",
+    "graph_id": 44,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      7
+    ]
+  },
+  "45": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17.\nNode 17 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nQ: What is the maximum capacity of the flow from node 15 to node 1?\nA: ",
+    "answer": "90.",
+    "nnodes": 18,
+    "nedges": 153,
+    "task_description": "Q: What is the maximum capacity of the flow from node 15 to node 1?\nA: ",
+    "graph_id": 45,
+    "algorithm": "complete",
+    "node_ids": [
+      15,
+      1
+    ]
+  },
+  "46": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 7 to node 1?\nA: ",
+    "answer": "29.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 1?\nA: ",
+    "graph_id": 46,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      1
+    ]
+  },
+  "47": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nQ: What is the maximum capacity of the flow from node 9 to node 11?\nA: ",
+    "answer": "76.",
+    "nnodes": 16,
+    "nedges": 120,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 11?\nA: ",
+    "graph_id": 47,
+    "algorithm": "complete",
+    "node_ids": [
+      9,
+      11
+    ]
+  },
+  "48": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nQ: What is the maximum capacity of the flow from node 11 to node 5?\nA: ",
+    "answer": "61.",
+    "nnodes": 14,
+    "nedges": 91,
+    "task_description": "Q: What is the maximum capacity of the flow from node 11 to node 5?\nA: ",
+    "graph_id": 48,
+    "algorithm": "complete",
+    "node_ids": [
+      11,
+      5
+    ]
+  },
+  "49": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "answer": "35.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "graph_id": 49,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      4
+    ]
+  },
+  "50": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nQ: What is the maximum capacity of the flow from node 0 to node 8?\nA: ",
+    "answer": "56.",
+    "nnodes": 13,
+    "nedges": 78,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 8?\nA: ",
+    "graph_id": 50,
+    "algorithm": "complete",
+    "node_ids": [
+      0,
+      8
+    ]
+  },
+  "51": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8.\nQ: What is the maximum capacity of the flow from node 9 to node 1?\nA: ",
+    "answer": "55.",
+    "nnodes": 10,
+    "nedges": 45,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 1?\nA: ",
+    "graph_id": 51,
+    "algorithm": "complete",
+    "node_ids": [
+      9,
+      1
+    ]
+  },
+  "52": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: ",
+    "answer": "61.",
+    "nnodes": 13,
+    "nedges": 78,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 2?\nA: ",
+    "graph_id": 52,
+    "algorithm": "complete",
+    "node_ids": [
+      1,
+      2
+    ]
+  },
+  "53": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "answer": "44.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "graph_id": 53,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      4
+    ]
+  },
+  "54": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.\nQ: What is the maximum capacity of the flow from node 8 to node 9?\nA: ",
+    "answer": "54.",
+    "nnodes": 11,
+    "nedges": 55,
+    "task_description": "Q: What is the maximum capacity of the flow from node 8 to node 9?\nA: ",
+    "graph_id": 54,
+    "algorithm": "complete",
+    "node_ids": [
+      8,
+      9
+    ]
+  },
+  "55": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5.\nQ: What is the maximum capacity of the flow from node 5 to node 1?\nA: ",
+    "answer": "30.",
+    "nnodes": 7,
+    "nedges": 21,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 1?\nA: ",
+    "graph_id": 55,
+    "algorithm": "complete",
+    "node_ids": [
+      5,
+      1
+    ]
+  },
+  "56": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "answer": "65.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "graph_id": 56,
+    "algorithm": "complete",
+    "node_ids": [
+      4,
+      3
+    ]
+  },
+  "57": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6.\nQ: What is the maximum capacity of the flow from node 7 to node 0?\nA: ",
+    "answer": "42.",
+    "nnodes": 8,
+    "nedges": 28,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 0?\nA: ",
+    "graph_id": 57,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      0
+    ]
+  },
+  "58": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 10 to node 0?\nA: ",
+    "answer": "70.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 10 to node 0?\nA: ",
+    "graph_id": 58,
+    "algorithm": "complete",
+    "node_ids": [
+      10,
+      0
+    ]
+  },
+  "59": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 3 to node 6?\nA: ",
+    "answer": "41.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 6?\nA: ",
+    "graph_id": 59,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      6
+    ]
+  },
+  "60": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nQ: What is the maximum capacity of the flow from node 9 to node 16?\nA: ",
+    "answer": "83.",
+    "nnodes": 17,
+    "nedges": 136,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 16?\nA: ",
+    "graph_id": 60,
+    "algorithm": "complete",
+    "node_ids": [
+      9,
+      16
+    ]
+  },
+  "61": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nQ: What is the maximum capacity of the flow from node 2 to node 4?\nA: ",
+    "answer": "89.",
+    "nnodes": 17,
+    "nedges": 136,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 4?\nA: ",
+    "graph_id": 61,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      4
+    ]
+  },
+  "62": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5.\nQ: What is the maximum capacity of the flow from node 6 to node 2?\nA: ",
+    "answer": "25.",
+    "nnodes": 7,
+    "nedges": 21,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 2?\nA: ",
+    "graph_id": 62,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      2
+    ]
+  },
+  "63": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nQ: What is the maximum capacity of the flow from node 0 to node 6?\nA: ",
+    "answer": "71.",
+    "nnodes": 13,
+    "nedges": 78,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 6?\nA: ",
+    "graph_id": 63,
+    "algorithm": "complete",
+    "node_ids": [
+      0,
+      6
+    ]
+  },
+  "64": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.\nQ: What is the maximum capacity of the flow from node 3 to node 10?\nA: ",
+    "answer": "64.",
+    "nnodes": 11,
+    "nedges": 55,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 10?\nA: ",
+    "graph_id": 64,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      10
+    ]
+  },
+  "65": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.\nQ: What is the maximum capacity of the flow from node 0 to node 7?\nA: ",
+    "answer": "42.",
+    "nnodes": 11,
+    "nedges": 55,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 7?\nA: ",
+    "graph_id": 65,
+    "algorithm": "complete",
+    "node_ids": [
+      0,
+      7
+    ]
+  },
+  "66": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 7 to node 1?\nA: ",
+    "answer": "38.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 1?\nA: ",
+    "graph_id": 66,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      1
+    ]
+  },
+  "67": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "answer": "53.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "graph_id": 67,
+    "algorithm": "complete",
+    "node_ids": [
+      1,
+      4
+    ]
+  },
+  "68": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 6 to node 7?\nA: ",
+    "answer": "49.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 7?\nA: ",
+    "graph_id": 68,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      7
+    ]
+  },
+  "69": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nQ: What is the maximum capacity of the flow from node 7 to node 8?\nA: ",
+    "answer": "67.",
+    "nnodes": 14,
+    "nedges": 91,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 8?\nA: ",
+    "graph_id": 69,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      8
+    ]
+  },
+  "70": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 1 to node 11?\nA: ",
+    "answer": "51.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 11?\nA: ",
+    "graph_id": 70,
+    "algorithm": "complete",
+    "node_ids": [
+      1,
+      11
+    ]
+  },
+  "71": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17.\nNode 17 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nQ: What is the maximum capacity of the flow from node 10 to node 0?\nA: ",
+    "answer": "98.",
+    "nnodes": 18,
+    "nedges": 153,
+    "task_description": "Q: What is the maximum capacity of the flow from node 10 to node 0?\nA: ",
+    "graph_id": 71,
+    "algorithm": "complete",
+    "node_ids": [
+      10,
+      0
+    ]
+  },
+  "72": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8.\nQ: What is the maximum capacity of the flow from node 8 to node 1?\nA: ",
+    "answer": "51.",
+    "nnodes": 10,
+    "nedges": 45,
+    "task_description": "Q: What is the maximum capacity of the flow from node 8 to node 1?\nA: ",
+    "graph_id": 72,
+    "algorithm": "complete",
+    "node_ids": [
+      8,
+      1
+    ]
+  },
+  "73": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 3 to node 1?\nA: ",
+    "answer": "13.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 1?\nA: ",
+    "graph_id": 73,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      1
+    ]
+  },
+  "74": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nQ: What is the maximum capacity of the flow from node 11 to node 6?\nA: ",
+    "answer": "57.",
+    "nnodes": 13,
+    "nedges": 78,
+    "task_description": "Q: What is the maximum capacity of the flow from node 11 to node 6?\nA: ",
+    "graph_id": 74,
+    "algorithm": "complete",
+    "node_ids": [
+      11,
+      6
+    ]
+  },
+  "75": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nQ: What is the maximum capacity of the flow from node 5 to node 9?\nA: ",
+    "answer": "61.",
+    "nnodes": 13,
+    "nedges": 78,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 9?\nA: ",
+    "graph_id": 75,
+    "algorithm": "complete",
+    "node_ids": [
+      5,
+      9
+    ]
+  },
+  "76": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8.\nQ: What is the maximum capacity of the flow from node 9 to node 5?\nA: ",
+    "answer": "44.",
+    "nnodes": 10,
+    "nedges": 45,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 5?\nA: ",
+    "graph_id": 76,
+    "algorithm": "complete",
+    "node_ids": [
+      9,
+      5
+    ]
+  },
+  "77": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to nodes 0, 2, 3, 4.\nNode 2 is connected to nodes 0, 1, 3, 4.\nNode 3 is connected to nodes 0, 1, 2, 4.\nNode 4 is connected to nodes 0, 1, 2, 3.\nQ: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "answer": "21.",
+    "nnodes": 5,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "graph_id": 77,
+    "algorithm": "complete",
+    "node_ids": [
+      4,
+      3
+    ]
+  },
+  "78": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 7 to node 8?\nA: ",
+    "answer": "45.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 8?\nA: ",
+    "graph_id": 78,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      8
+    ]
+  },
+  "79": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18.\nNode 17 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18.\nNode 18 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nQ: What is the maximum capacity of the flow from node 17 to node 12?\nA: ",
+    "answer": "100.",
+    "nnodes": 19,
+    "nedges": 171,
+    "task_description": "Q: What is the maximum capacity of the flow from node 17 to node 12?\nA: ",
+    "graph_id": 79,
+    "algorithm": "complete",
+    "node_ids": [
+      17,
+      12
+    ]
+  },
+  "80": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nQ: What is the maximum capacity of the flow from node 2 to node 11?\nA: ",
+    "answer": "60.",
+    "nnodes": 13,
+    "nedges": 78,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 11?\nA: ",
+    "graph_id": 80,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      11
+    ]
+  },
+  "81": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nQ: What is the maximum capacity of the flow from node 15 to node 8?\nA: ",
+    "answer": "60.",
+    "nnodes": 16,
+    "nedges": 120,
+    "task_description": "Q: What is the maximum capacity of the flow from node 15 to node 8?\nA: ",
+    "graph_id": 81,
+    "algorithm": "complete",
+    "node_ids": [
+      15,
+      8
+    ]
+  },
+  "82": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5.\nQ: What is the maximum capacity of the flow from node 5 to node 4?\nA: ",
+    "answer": "21.",
+    "nnodes": 7,
+    "nedges": 21,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 4?\nA: ",
+    "graph_id": 82,
+    "algorithm": "complete",
+    "node_ids": [
+      5,
+      4
+    ]
+  },
+  "83": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7.\nQ: What is the maximum capacity of the flow from node 0 to node 7?\nA: ",
+    "answer": "32.",
+    "nnodes": 9,
+    "nedges": 36,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 7?\nA: ",
+    "graph_id": 83,
+    "algorithm": "complete",
+    "node_ids": [
+      0,
+      7
+    ]
+  },
+  "84": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 3 to node 2?\nA: ",
+    "answer": "14.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 2?\nA: ",
+    "graph_id": 84,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      2
+    ]
+  },
+  "85": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 2 to node 3?\nA: ",
+    "answer": "26.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 3?\nA: ",
+    "graph_id": 85,
+    "algorithm": "complete",
+    "node_ids": [
+      2,
+      3
+    ]
+  },
+  "86": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6.\nQ: What is the maximum capacity of the flow from node 6 to node 5?\nA: ",
+    "answer": "23.",
+    "nnodes": 8,
+    "nedges": 28,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 5?\nA: ",
+    "graph_id": 86,
+    "algorithm": "complete",
+    "node_ids": [
+      6,
+      5
+    ]
+  },
+  "87": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17.\nNode 17 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nQ: What is the maximum capacity of the flow from node 14 to node 8?\nA: ",
+    "answer": "104.",
+    "nnodes": 18,
+    "nedges": 153,
+    "task_description": "Q: What is the maximum capacity of the flow from node 14 to node 8?\nA: ",
+    "graph_id": 87,
+    "algorithm": "complete",
+    "node_ids": [
+      14,
+      8
+    ]
+  },
+  "88": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nQ: What is the maximum capacity of the flow from node 8 to node 10?\nA: ",
+    "answer": "57.",
+    "nnodes": 12,
+    "nedges": 66,
+    "task_description": "Q: What is the maximum capacity of the flow from node 8 to node 10?\nA: ",
+    "graph_id": 88,
+    "algorithm": "complete",
+    "node_ids": [
+      8,
+      10
+    ]
+  },
+  "89": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nQ: What is the maximum capacity of the flow from node 0 to node 9?\nA: ",
+    "answer": "57.",
+    "nnodes": 12,
+    "nedges": 66,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 9?\nA: ",
+    "graph_id": 89,
+    "algorithm": "complete",
+    "node_ids": [
+      0,
+      9
+    ]
+  },
+  "90": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nQ: What is the maximum capacity of the flow from node 8 to node 2?\nA: ",
+    "answer": "56.",
+    "nnodes": 13,
+    "nedges": 78,
+    "task_description": "Q: What is the maximum capacity of the flow from node 8 to node 2?\nA: ",
+    "graph_id": 90,
+    "algorithm": "complete",
+    "node_ids": [
+      8,
+      2
+    ]
+  },
+  "91": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nQ: What is the maximum capacity of the flow from node 13 to node 12?\nA: ",
+    "answer": "77.",
+    "nnodes": 17,
+    "nedges": 136,
+    "task_description": "Q: What is the maximum capacity of the flow from node 13 to node 12?\nA: ",
+    "graph_id": 91,
+    "algorithm": "complete",
+    "node_ids": [
+      13,
+      12
+    ]
+  },
+  "92": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nQ: What is the maximum capacity of the flow from node 10 to node 3?\nA: ",
+    "answer": "61.",
+    "nnodes": 14,
+    "nedges": 91,
+    "task_description": "Q: What is the maximum capacity of the flow from node 10 to node 3?\nA: ",
+    "graph_id": 92,
+    "algorithm": "complete",
+    "node_ids": [
+      10,
+      3
+    ]
+  },
+  "93": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16.\nNode 15 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16.\nNode 16 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nQ: What is the maximum capacity of the flow from node 5 to node 13?\nA: ",
+    "answer": "101.",
+    "nnodes": 17,
+    "nedges": 136,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 13?\nA: ",
+    "graph_id": 93,
+    "algorithm": "complete",
+    "node_ids": [
+      5,
+      13
+    ]
+  },
+  "94": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6.\nQ: What is the maximum capacity of the flow from node 3 to node 0?\nA: ",
+    "answer": "35.",
+    "nnodes": 8,
+    "nedges": 28,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 0?\nA: ",
+    "graph_id": 94,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      0
+    ]
+  },
+  "95": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.\nNode 11 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14.\nNode 12 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14.\nNode 13 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14.\nNode 14 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nQ: What is the maximum capacity of the flow from node 4 to node 14?\nA: ",
+    "answer": "90.",
+    "nnodes": 15,
+    "nedges": 105,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 14?\nA: ",
+    "graph_id": 95,
+    "algorithm": "complete",
+    "node_ids": [
+      4,
+      14
+    ]
+  },
+  "96": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to nodes 0, 2, 3, 4, 5.\nNode 2 is connected to nodes 0, 1, 3, 4, 5.\nNode 3 is connected to nodes 0, 1, 2, 4, 5.\nNode 4 is connected to nodes 0, 1, 2, 3, 5.\nNode 5 is connected to nodes 0, 1, 2, 3, 4.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: ",
+    "answer": "24.",
+    "nnodes": 6,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 2?\nA: ",
+    "graph_id": 96,
+    "algorithm": "complete",
+    "node_ids": [
+      1,
+      2
+    ]
+  },
+  "97": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.\nQ: What is the maximum capacity of the flow from node 3 to node 10?\nA: ",
+    "answer": "55.",
+    "nnodes": 11,
+    "nedges": 55,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 10?\nA: ",
+    "graph_id": 97,
+    "algorithm": "complete",
+    "node_ids": [
+      3,
+      10
+    ]
+  },
+  "98": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9, 10.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9, 10.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9, 10.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9, 10.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9, 10.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9, 10.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 10.\nNode 10 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.\nQ: What is the maximum capacity of the flow from node 7 to node 9?\nA: ",
+    "answer": "44.",
+    "nnodes": 11,
+    "nedges": 55,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 9?\nA: ",
+    "graph_id": 98,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      9
+    ]
+  },
+  "99": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to nodes 0, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 2 is connected to nodes 0, 1, 3, 4, 5, 6, 7, 8, 9.\nNode 3 is connected to nodes 0, 1, 2, 4, 5, 6, 7, 8, 9.\nNode 4 is connected to nodes 0, 1, 2, 3, 5, 6, 7, 8, 9.\nNode 5 is connected to nodes 0, 1, 2, 3, 4, 6, 7, 8, 9.\nNode 6 is connected to nodes 0, 1, 2, 3, 4, 5, 7, 8, 9.\nNode 7 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 8, 9.\nNode 8 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 9.\nNode 9 is connected to nodes 0, 1, 2, 3, 4, 5, 6, 7, 8.\nQ: What is the maximum capacity of the flow from node 7 to node 3?\nA: ",
+    "answer": "45.",
+    "nnodes": 10,
+    "nedges": 45,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 3?\nA: ",
+    "graph_id": 99,
+    "algorithm": "complete",
+    "node_ids": [
+      7,
+      3
+    ]
+  }
+}

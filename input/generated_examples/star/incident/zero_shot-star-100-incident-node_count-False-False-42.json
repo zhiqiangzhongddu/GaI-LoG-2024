@@ -1,0 +1,1002 @@
+{
+  "0": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 0,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "1": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 1,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "2": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 2,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "3": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 3,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "4": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 4,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "5": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 5,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "6": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 6,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "7": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nNode 18 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 19.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 7,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "8": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 8,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "9": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 9,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "10": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 10,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "11": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 11,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "12": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 12,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "13": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 13,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "14": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 14,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "15": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 15,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "16": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nNode 18 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 19.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 16,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "17": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 17,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "18": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 18,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "19": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 19,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "20": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 20,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "21": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 21,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "22": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 22,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "23": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 23,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "24": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 24,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "25": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 25,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "26": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 26,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "27": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 27,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "28": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 28,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "29": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 29,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "30": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 18.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 30,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "31": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 31,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "32": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 32,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "33": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 33,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "34": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 34,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "35": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 35,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "36": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 36,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "37": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 37,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "38": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 38,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "39": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nNode 18 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 19.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 39,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "40": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 40,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "41": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 41,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "42": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 42,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "43": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 43,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "44": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 44,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "45": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 18.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 45,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "46": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 46,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "47": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 47,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "48": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 48,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "49": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 49,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "50": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 50,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "51": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 51,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "52": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 52,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "53": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 53,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "54": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 54,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "55": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 55,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "56": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 56,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "57": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 57,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "58": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 58,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "59": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 59,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "60": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 60,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "61": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 61,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "62": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 62,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "63": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 63,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "64": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 64,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "65": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 65,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "66": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 66,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "67": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 67,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "68": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 68,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "69": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 69,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "70": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 70,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "71": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 18.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 71,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "72": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 72,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "73": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 73,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "74": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 74,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "75": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 75,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "76": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 76,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "77": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 5.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 77,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "78": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 78,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "79": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nNode 18 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 19.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 79,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "80": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 80,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "81": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 16.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 81,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "82": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 7.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 82,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "83": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 83,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "84": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 84,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "85": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 85,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "86": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 86,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "87": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 18.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 87,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "88": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 88,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "89": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 12.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 89,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "90": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 13.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 90,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "91": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 91,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "92": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 14.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 92,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "93": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 17.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 93,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "94": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 8.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 94,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "95": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 15.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 95,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "96": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 96,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "97": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 97,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "98": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 11.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 98,
+    "algorithm": "star",
+    "node_ids": []
+  },
+  "99": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: How many nodes are in this graph?\nA: ",
+    "answer": " 10.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: How many nodes are in this graph?\nA: ",
+    "graph_id": 99,
+    "algorithm": "star",
+    "node_ids": []
+  }
+}

@@ -1,0 +1,1202 @@
+{
+  "0": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to node 15.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 0,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "1": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to node 10.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 2, 3, 7, 8, 9.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 1,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ]
+  },
+  "2": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to node 12.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "answer": "0, 1, 12, 13, 2, 3, 4, 5, 6, 7, 8.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "graph_id": 2,
+    "algorithm": "path",
+    "node_ids": [
+      10
+    ]
+  },
+  "3": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to node 12.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "answer": "0, 1, 11, 12, 13, 2, 3, 4, 5, 6, 7.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "graph_id": 3,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ]
+  },
+  "4": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to node 3.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "answer": "0, 1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 4,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ]
+  },
+  "5": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 5,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "6": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to node 8.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 5, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 6,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "7": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to nodes 15, 17.\nNode 17 is connected to nodes 16, 18.\nNode 18 is connected to node 17.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 2, 6, 7, 8, 9.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 7,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "8": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to node 14.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "answer": "0, 10, 11, 12, 13, 14, 15, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 8,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ]
+  },
+  "9": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "answer": "0, 4, 5, 6, 7, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 9,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ]
+  },
+  "10": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "answer": "0, 1, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "graph_id": 10,
+    "algorithm": "path",
+    "node_ids": [
+      11
+    ]
+  },
+  "11": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 11,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "12": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to node 14.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "10, 11, 12, 13, 14, 15, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 12,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "13": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to node 10.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 2, 3, 4, 5, 6.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "graph_id": 13,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ]
+  },
+  "14": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to node 5.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "answer": "0, 1, 5, 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 14,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ]
+  },
+  "15": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "graph_id": 15,
+    "algorithm": "path",
+    "node_ids": [
+      14
+    ]
+  },
+  "16": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to nodes 15, 17.\nNode 17 is connected to nodes 16, 18.\nNode 18 is connected to node 17.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 2, 3, 4, 5, 9.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 16,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "17": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to node 5.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5, 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 17,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "18": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to node 8.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 5, 6.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "graph_id": 18,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ]
+  },
+  "19": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to node 5.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "answer": "0, 1, 5, 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 19,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ]
+  },
+  "20": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to node 11.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "10, 11, 12, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 20,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "21": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 21,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "22": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "answer": "0, 1, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "graph_id": 22,
+    "algorithm": "path",
+    "node_ids": [
+      10
+    ]
+  },
+  "23": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "3, 4, 5, 6, 7, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 23,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "24": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to node 9.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 2, 3, 4, 5, 6.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "graph_id": 24,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ]
+  },
+  "25": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 25,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "26": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 26,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "27": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "answer": "0, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 27,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ]
+  },
+  "28": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to node 3.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 28,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "29": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to node 6.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "3, 4, 5, 6, 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 29,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "30": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to nodes 15, 17.\nNode 17 is connected to node 16.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "answer": "0, 1, 11, 12, 13, 14, 15, 16, 17, 2, 3, 4, 5, 6, 7.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "graph_id": 30,
+    "algorithm": "path",
+    "node_ids": [
+      9
+    ]
+  },
+  "31": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 5.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 31,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "32": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to node 9.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 2, 3, 7, 8, 9.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 32,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ]
+  },
+  "33": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 2, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 33,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "34": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to node 12.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 5, 6, 7, 8, 9.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 34,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ]
+  },
+  "35": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to node 14.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 15, 2, 3, 4, 8, 9.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 35,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ]
+  },
+  "36": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to node 3.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "answer": "0, 1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 36,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ]
+  },
+  "37": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to node 15.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "graph_id": 37,
+    "algorithm": "path",
+    "node_ids": [
+      16
+    ]
+  },
+  "38": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to node 8.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 38,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "39": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to nodes 15, 17.\nNode 17 is connected to nodes 16, 18.\nNode 18 is connected to node 17.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 18, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "graph_id": 39,
+    "algorithm": "path",
+    "node_ids": [
+      16
+    ]
+  },
+  "40": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to node 8.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 40,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "41": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 41,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "42": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to node 6.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 42,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ]
+  },
+  "43": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to node 3.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "3, 4.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 43,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "44": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 5.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 44,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "45": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to nodes 15, 17.\nNode 17 is connected to node 16.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 14, 15, 16, 17, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "graph_id": 45,
+    "algorithm": "path",
+    "node_ids": [
+      12
+    ]
+  },
+  "46": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "answer": "0, 4, 5, 6, 7, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 46,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ]
+  },
+  "47": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to node 14.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "10, 11, 12, 13, 14, 15, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 47,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "48": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to node 12.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "10, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 48,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "49": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 5.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 49,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "50": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to node 11.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "answer": "0, 10, 11, 12, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 50,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ]
+  },
+  "51": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to node 8.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 51,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "52": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to node 11.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 2, 3, 4, 5, 6.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "graph_id": 52,
+    "algorithm": "path",
+    "node_ids": [
+      8
+    ]
+  },
+  "53": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "answer": "0, 1, 5, 6, 7, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 53,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ]
+  },
+  "54": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to node 9.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "answer": "0, 10, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 54,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ]
+  },
+  "55": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to node 5.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5, 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 55,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "56": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "graph_id": 56,
+    "algorithm": "path",
+    "node_ids": [
+      14
+    ]
+  },
+  "57": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to node 6.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 57,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ]
+  },
+  "58": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "graph_id": 58,
+    "algorithm": "path",
+    "node_ids": [
+      12
+    ]
+  },
+  "59": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "3, 4, 5, 6, 7, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 59,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "60": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to node 15.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "graph_id": 60,
+    "algorithm": "path",
+    "node_ids": [
+      16
+    ]
+  },
+  "61": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to node 15.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 2, 6, 7, 8, 9.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 61,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "62": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to node 5.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 62,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ]
+  },
+  "63": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to node 11.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 2, 6, 7, 8, 9.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 63,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "64": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to node 9.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 2, 3, 4, 5, 9.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 64,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "65": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to node 9.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "10, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 65,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "66": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 66,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ]
+  },
+  "67": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 2, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 67,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "68": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5, 6, 7, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 68,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "69": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to node 12.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "answer": "0, 10, 11, 12, 13, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 69,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ]
+  },
+  "70": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 2, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 70,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "71": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to nodes 15, 17.\nNode 17 is connected to node 16.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 17, 2, 6, 7, 8, 9.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 71,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "72": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to node 8.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 6, 7, 8, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 72,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "73": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "answer": "3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "graph_id": 73,
+    "algorithm": "path",
+    "node_ids": [
+      1
+    ]
+  },
+  "74": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to node 11.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "graph_id": 74,
+    "algorithm": "path",
+    "node_ids": [
+      12
+    ]
+  },
+  "75": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to node 11.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 2, 3, 4, 5, 9.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 75,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "76": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to node 8.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 76,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "77": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to node 3.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 77,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "78": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 8.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 78,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ]
+  },
+  "79": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to nodes 15, 17.\nNode 17 is connected to nodes 16, 18.\nNode 18 is connected to node 17.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "answer": "0, 1, 13, 14, 15, 16, 17, 18, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "graph_id": 79,
+    "algorithm": "path",
+    "node_ids": [
+      11
+    ]
+  },
+  "80": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to node 11.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 2, 3, 4, 5, 9.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 80,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "81": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to node 14.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "answer": "0, 1, 12, 13, 14, 15, 2, 3, 4, 5, 6, 7, 8.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "graph_id": 81,
+    "algorithm": "path",
+    "node_ids": [
+      10
+    ]
+  },
+  "82": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to node 5.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 82,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "83": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to node 7.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 5.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 83,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "84": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "answer": "0, 1, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "graph_id": 84,
+    "algorithm": "path",
+    "node_ids": [
+      3
+    ]
+  },
+  "85": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 85,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "86": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to node 6.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 5.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 86,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "87": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to nodes 15, 17.\nNode 17 is connected to node 16.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 7, 8, 9.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "graph_id": 87,
+    "algorithm": "path",
+    "node_ids": [
+      5
+    ]
+  },
+  "88": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to node 10.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 2, 3, 4, 5, 9.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "graph_id": 88,
+    "algorithm": "path",
+    "node_ids": [
+      7
+    ]
+  },
+  "89": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to node 10.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "graph_id": 89,
+    "algorithm": "path",
+    "node_ids": [
+      11
+    ]
+  },
+  "90": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to node 11.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "graph_id": 90,
+    "algorithm": "path",
+    "node_ids": [
+      12
+    ]
+  },
+  "91": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to node 15.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "graph_id": 91,
+    "algorithm": "path",
+    "node_ids": [
+      16
+    ]
+  },
+  "92": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to node 12.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 13 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: List all the nodes that are not connected to 13 in alphabetical order.\nA: ",
+    "graph_id": 92,
+    "algorithm": "path",
+    "node_ids": [
+      13
+    ]
+  },
+  "93": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to nodes 13, 15.\nNode 15 is connected to nodes 14, 16.\nNode 16 is connected to node 15.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 16, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "graph_id": 93,
+    "algorithm": "path",
+    "node_ids": [
+      14
+    ]
+  },
+  "94": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to node 6.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 6, 7.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 94,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "95": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to nodes 9, 11.\nNode 11 is connected to nodes 10, 12.\nNode 12 is connected to nodes 11, 13.\nNode 13 is connected to nodes 12, 14.\nNode 14 is connected to node 13.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 11, 12, 13, 14, 2, 6, 7, 8, 9.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "graph_id": 95,
+    "algorithm": "path",
+    "node_ids": [
+      4
+    ]
+  },
+  "96": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to node 4.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "answer": "2, 3, 4, 5.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "graph_id": 96,
+    "algorithm": "path",
+    "node_ids": [
+      0
+    ]
+  },
+  "97": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to node 9.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "answer": "0, 10, 4, 5, 6, 7, 8, 9.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "graph_id": 97,
+    "algorithm": "path",
+    "node_ids": [
+      2
+    ]
+  },
+  "98": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to nodes 8, 10.\nNode 10 is connected to node 9.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "answer": "0, 1, 10, 2, 3, 4, 8, 9.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 98,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ]
+  },
+  "99": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to node 1.\nNode 1 is connected to nodes 0, 2.\nNode 2 is connected to nodes 1, 3.\nNode 3 is connected to nodes 2, 4.\nNode 4 is connected to nodes 3, 5.\nNode 5 is connected to nodes 4, 6.\nNode 6 is connected to nodes 5, 7.\nNode 7 is connected to nodes 6, 8.\nNode 8 is connected to nodes 7, 9.\nNode 9 is connected to node 8.\nLet's construct the graph with the nodes and edges first.\nQ: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "answer": "0, 1, 2, 3, 4, 8, 9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "graph_id": 99,
+    "algorithm": "path",
+    "node_ids": [
+      6
+    ]
+  }
+}

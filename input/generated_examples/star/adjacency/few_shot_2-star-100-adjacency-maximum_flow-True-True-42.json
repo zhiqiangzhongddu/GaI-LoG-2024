@@ -1,0 +1,1702 @@
+{
+  "0": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 7?\nA: 2.This is because of the following edges: the edge from node 0 to node 7 with capacity 2, the edge from node 4 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 3 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 13?\nA: ",
+    "answer": "8.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 13?\nA: ",
+    "graph_id": 0,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      13
+    ],
+    "few_shot_graph_ids": [
+      88,
+      79
+    ]
+  },
+  "1": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 0?\nA: 3.This is because of the following edges: the edge from node 3 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 3?\nA: 2.This is because of the following edges: the edge from node 0 to node 3 with capacity 2, the edge from node 8 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 8?\nA: ",
+    "answer": "9.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 8?\nA: ",
+    "graph_id": 1,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      8
+    ],
+    "few_shot_graph_ids": [
+      21,
+      35
+    ]
+  },
+  "2": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 1?\nA: 6.This is because of the following edges: the edge from node 0 to node 1 with capacity 6, the edge from node 4 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 2?\nA: 4.This is because of the following edges: the edge from node 0 to node 2 with capacity 4, the edge from node 6 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 12?\nA: ",
+    "answer": "5.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 12?\nA: ",
+    "graph_id": 2,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      12
+    ],
+    "few_shot_graph_ids": [
+      86,
+      7
+    ]
+  },
+  "3": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 6?\nA: 5.This is because of the following edges: the edge from node 0 to node 6 with capacity 5, the edge from node 8 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 11?\nA: 2.This is because of the following edges: the edge from node 0 to node 11 with capacity 2, the edge from node 5 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 12?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 12?\nA: ",
+    "graph_id": 3,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      12
+    ],
+    "few_shot_graph_ids": [
+      90,
+      92
+    ]
+  },
+  "4": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 2?\nA: 4.This is because of the following edges: the edge from node 0 to node 2 with capacity 4, the edge from node 6 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 1?\nA: 4.This is because of the following edges: the edge from node 0 to node 1 with capacity 4, the edge from node 5 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "answer": "3.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "graph_id": 4,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      7,
+      62
+    ]
+  },
+  "5": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 5.This is because of the following edges: the edge from node 0 to node 5 with capacity 5, the edge from node 4 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 1 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "graph_id": 5,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      91,
+      40
+    ]
+  },
+  "6": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: 6.This is because of the following edges: the edge from node 0 to node 7 with capacity 6, the edge from node 1 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 6?\nA: 6.This is because of the following edges: the edge from node 0 to node 6 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 9?\nA: ",
+    "answer": "3.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 9?\nA: ",
+    "graph_id": 6,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      9
+    ],
+    "few_shot_graph_ids": [
+      3,
+      13
+    ]
+  },
+  "7": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 9.This is because of the following edges: the edge from node 0 to node 5 with capacity 9, the edge from node 4 to node 0 with capacity 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 3 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 12 to node 10?\nA: ",
+    "answer": "1.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the maximum capacity of the flow from node 12 to node 10?\nA: ",
+    "graph_id": 7,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      10
+    ],
+    "few_shot_graph_ids": [
+      27,
+      79
+    ]
+  },
+  "8": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 10?\nA: 6.This is because of the following edges: the edge from node 0 to node 10 with capacity 6, the edge from node 9 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 4?\nA: 8.This is because of the following edges: the edge from node 0 to node 4 with capacity 8, the edge from node 2 to node 0 with capacity 8.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 14 to node 4?\nA: ",
+    "answer": "4.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 14 to node 4?\nA: ",
+    "graph_id": 8,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      4
+    ],
+    "few_shot_graph_ids": [
+      16,
+      83
+    ]
+  },
+  "9": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 3 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 3 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 7?\nA: ",
+    "answer": "9.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 7?\nA: ",
+    "graph_id": 9,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      7
+    ],
+    "few_shot_graph_ids": [
+      79,
+      79
+    ]
+  },
+  "10": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 1?\nA: 3.This is because of the following edges: the edge from node 0 to node 1 with capacity 3, the edge from node 3 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 5 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 7?\nA: ",
+    "graph_id": 10,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      7
+    ],
+    "few_shot_graph_ids": [
+      29,
+      58
+    ]
+  },
+  "11": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 4.This is because of the following edges: the edge from node 0 to node 5 with capacity 4, the edge from node 4 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 13?\nA: 3.This is because of the following edges: the edge from node 0 to node 13 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 5?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 5?\nA: ",
+    "graph_id": 11,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      5
+    ],
+    "few_shot_graph_ids": [
+      96,
+      26
+    ]
+  },
+  "12": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 3?\nA: 8.This is because of the following edges: the edge from node 0 to node 3 with capacity 8, the edge from node 6 to node 0 with capacity 8.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 3?\nA: 3.This is because of the following edges: the edge from node 0 to node 3 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 11 to node 15?\nA: ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 11 to node 15?\nA: ",
+    "graph_id": 12,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      15
+    ],
+    "few_shot_graph_ids": [
+      15,
+      54
+    ]
+  },
+  "13": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 4 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: 2.This is because of the following edges: the edge from node 0 to node 2 with capacity 2, the edge from node 1 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 11?\nA: ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 11?\nA: ",
+    "graph_id": 13,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      11
+    ],
+    "few_shot_graph_ids": [
+      81,
+      51
+    ]
+  },
+  "14": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 0?\nA: 7.This is because of the following edges: the edge from node 1 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 5 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 3?\nA: ",
+    "answer": "1.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 3?\nA: ",
+    "graph_id": 14,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      3
+    ],
+    "few_shot_graph_ids": [
+      77,
+      58
+    ]
+  },
+  "15": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 8?\nA: 6.This is because of the following edges: the edge from node 0 to node 8 with capacity 6, the edge from node 1 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 12 to node 13?\nA: 2.This is because of the following edges: the edge from node 0 to node 13 with capacity 2, the edge from node 12 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 11 to node 12?\nA: ",
+    "answer": "4.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 11 to node 12?\nA: ",
+    "graph_id": 15,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      12
+    ],
+    "few_shot_graph_ids": [
+      59,
+      70
+    ]
+  },
+  "16": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 3?\nA: 6.This is because of the following edges: the edge from node 0 to node 3 with capacity 6, the edge from node 7 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 6?\nA: 6.This is because of the following edges: the edge from node 0 to node 6 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 17 to node 12?\nA: ",
+    "answer": "3.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the maximum capacity of the flow from node 17 to node 12?\nA: ",
+    "graph_id": 16,
+    "algorithm": "star",
+    "node_ids": [
+      17,
+      12
+    ],
+    "few_shot_graph_ids": [
+      68,
+      13
+    ]
+  },
+  "17": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 1?\nA: 7.This is because of the following edges: the edge from node 0 to node 1 with capacity 7, the edge from node 9 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 6?\nA: 7.This is because of the following edges: the edge from node 0 to node 6 with capacity 7, the edge from node 7 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "answer": "6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "graph_id": 17,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      61,
+      0
+    ]
+  },
+  "18": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 2?\nA: 4.This is because of the following edges: the edge from node 0 to node 2 with capacity 4, the edge from node 6 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 0?\nA: 6.This is because of the following edges: the edge from node 2 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 9?\nA: ",
+    "answer": "3.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 9?\nA: ",
+    "graph_id": 18,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      9
+    ],
+    "few_shot_graph_ids": [
+      7,
+      73
+    ]
+  },
+  "19": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 10?\nA: 6.This is because of the following edges: the edge from node 0 to node 10 with capacity 6, the edge from node 9 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 13 to node 6?\nA: 3.This is because of the following edges: the edge from node 0 to node 6 with capacity 3, the edge from node 13 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "graph_id": 19,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      16,
+      10
+    ]
+  },
+  "20": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 0?\nA: 6.This is because of the following edges: the edge from node 6 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: 6.This is because of the following edges: the edge from node 0 to node 7 with capacity 6, the edge from node 1 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 9?\nA: ",
+    "answer": "7.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the maximum capacity of the flow from node 8 to node 9?\nA: ",
+    "graph_id": 20,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      9
+    ],
+    "few_shot_graph_ids": [
+      9,
+      3
+    ]
+  },
+  "21": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 4?\nA: 4.This is because of the following edges: the edge from node 0 to node 4 with capacity 4, the edge from node 10 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 3 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 5?\nA: ",
+    "graph_id": 21,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      5
+    ],
+    "few_shot_graph_ids": [
+      65,
+      79
+    ]
+  },
+  "22": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 0?\nA: 7.This is because of the following edges: the edge from node 1 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 7?\nA: 3.This is because of the following edges: the edge from node 0 to node 7 with capacity 3, the edge from node 6 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 11 to node 9?\nA: ",
+    "answer": "3.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 11 to node 9?\nA: ",
+    "graph_id": 22,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      9
+    ],
+    "few_shot_graph_ids": [
+      77,
+      57
+    ]
+  },
+  "23": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 6?\nA: 7.This is because of the following edges: the edge from node 0 to node 6 with capacity 7, the edge from node 7 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 1?\nA: 3.This is because of the following edges: the edge from node 0 to node 1 with capacity 3, the edge from node 3 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 7?\nA: ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 7?\nA: ",
+    "graph_id": 23,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      7
+    ],
+    "few_shot_graph_ids": [
+      0,
+      94
+    ]
+  },
+  "24": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 4?\nA: 5.This is because of the following edges: the edge from node 0 to node 4 with capacity 5, the edge from node 8 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 2?\nA: 3.This is because of the following edges: the edge from node 0 to node 2 with capacity 3, the edge from node 7 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 2?\nA: ",
+    "answer": "7.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 2?\nA: ",
+    "graph_id": 24,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      2
+    ],
+    "few_shot_graph_ids": [
+      31,
+      66
+    ]
+  },
+  "25": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 12 to node 4?\nA: 10.This is because of the following edges: the edge from node 0 to node 4 with capacity 10, the edge from node 12 to node 0 with capacity 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 0?\nA: 5.This is because of the following edges: the edge from node 9 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 0?\nA: ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 0?\nA: ",
+    "graph_id": 25,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      0
+    ],
+    "few_shot_graph_ids": [
+      74,
+      63
+    ]
+  },
+  "26": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 5?\nA: 9.This is because of the following edges: the edge from node 0 to node 5 with capacity 9, the edge from node 2 to node 0 with capacity 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 5.This is because of the following edges: the edge from node 0 to node 5 with capacity 5, the edge from node 4 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 14 to node 10?\nA: ",
+    "answer": "3.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 14 to node 10?\nA: ",
+    "graph_id": 26,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      10
+    ],
+    "few_shot_graph_ids": [
+      55,
+      19
+    ]
+  },
+  "27": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 12?\nA: 1.This is because of the following edges: the edge from node 0 to node 12 with capacity 1, the edge from node 3 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 7?\nA: 2.This is because of the following edges: the edge from node 0 to node 7 with capacity 2, the edge from node 4 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 5?\nA: ",
+    "answer": "10.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 5?\nA: ",
+    "graph_id": 27,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      5
+    ],
+    "few_shot_graph_ids": [
+      60,
+      88
+    ]
+  },
+  "28": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 10?\nA: 1.This is because of the following edges: the edge from node 0 to node 10 with capacity 1, the edge from node 4 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 0?\nA: 7.This is because of the following edges: the edge from node 1 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 2?\nA: ",
+    "answer": "5.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 2?\nA: ",
+    "graph_id": 28,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      64,
+      77
+    ]
+  },
+  "29": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 1?\nA: 4.This is because of the following edges: the edge from node 0 to node 1 with capacity 4, the edge from node 4 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 13?\nA: 1.This is because of the following edges: the edge from node 0 to node 13 with capacity 1, the edge from node 10 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "graph_id": 29,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      11,
+      22
+    ]
+  },
+  "30": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 3?\nA: 1.This is because of the following edges: the edge from node 0 to node 3 with capacity 1, the edge from node 9 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 3?\nA: 9.This is because of the following edges: the edge from node 0 to node 3 with capacity 9, the edge from node 6 to node 0 with capacity 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 5?\nA: ",
+    "answer": "6.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the maximum capacity of the flow from node 10 to node 5?\nA: ",
+    "graph_id": 30,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      5
+    ],
+    "few_shot_graph_ids": [
+      99,
+      38
+    ]
+  },
+  "31": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 8?\nA: 7.This is because of the following edges: the edge from node 0 to node 8 with capacity 7, the edge from node 2 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 6?\nA: 5.This is because of the following edges: the edge from node 0 to node 6 with capacity 5, the edge from node 5 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 4?\nA: ",
+    "answer": "1.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 4?\nA: ",
+    "graph_id": 31,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      4
+    ],
+    "few_shot_graph_ids": [
+      78,
+      14
+    ]
+  },
+  "32": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 14 to node 11?\nA: 5.This is because of the following edges: the edge from node 0 to node 11 with capacity 5, the edge from node 14 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 3?\nA: 8.This is because of the following edges: the edge from node 0 to node 3 with capacity 8, the edge from node 6 to node 0 with capacity 8.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 4?\nA: ",
+    "answer": "1.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 4?\nA: ",
+    "graph_id": 32,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      4
+    ],
+    "few_shot_graph_ids": [
+      12,
+      15
+    ]
+  },
+  "33": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 4.This is because of the following edges: the edge from node 0 to node 5 with capacity 4, the edge from node 4 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 3 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 5?\nA: ",
+    "answer": "1.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 5?\nA: ",
+    "graph_id": 33,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      5
+    ],
+    "few_shot_graph_ids": [
+      96,
+      79
+    ]
+  },
+  "34": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 3?\nA: 9.This is because of the following edges: the edge from node 0 to node 3 with capacity 9, the edge from node 6 to node 0 with capacity 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 5?\nA: 2.This is because of the following edges: the edge from node 0 to node 5 with capacity 2, the edge from node 2 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 11?\nA: ",
+    "answer": "3.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 11?\nA: ",
+    "graph_id": 34,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      11
+    ],
+    "few_shot_graph_ids": [
+      38,
+      48
+    ]
+  },
+  "35": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 6?\nA: 3.This is because of the following edges: the edge from node 0 to node 6 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 2?\nA: 4.This is because of the following edges: the edge from node 0 to node 2 with capacity 4, the edge from node 8 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 7?\nA: ",
+    "answer": "9.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 7?\nA: ",
+    "graph_id": 35,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      7
+    ],
+    "few_shot_graph_ids": [
+      97,
+      32
+    ]
+  },
+  "36": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 4?\nA: 5.This is because of the following edges: the edge from node 0 to node 4 with capacity 5, the edge from node 3 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 0?\nA: 3.This is because of the following edges: the edge from node 3 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 2?\nA: ",
+    "answer": "3.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 2?\nA: ",
+    "graph_id": 36,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      42,
+      21
+    ]
+  },
+  "37": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 8?\nA: 6.This is because of the following edges: the edge from node 0 to node 8 with capacity 6, the edge from node 1 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 13?\nA: 3.This is because of the following edges: the edge from node 0 to node 13 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 7?\nA: ",
+    "answer": "3.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 7?\nA: ",
+    "graph_id": 37,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      7
+    ],
+    "few_shot_graph_ids": [
+      59,
+      26
+    ]
+  },
+  "38": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 0?\nA: 6.This is because of the following edges: the edge from node 1 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: 7.This is because of the following edges: the edge from node 0 to node 2 with capacity 7, the edge from node 1 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "answer": "9.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "graph_id": 38,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      4
+    ],
+    "few_shot_graph_ids": [
+      84,
+      69
+    ]
+  },
+  "39": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 1 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 3?\nA: 9.This is because of the following edges: the edge from node 0 to node 3 with capacity 9, the edge from node 6 to node 0 with capacity 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 9?\nA: ",
+    "answer": "7.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 9?\nA: ",
+    "graph_id": 39,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      9
+    ],
+    "few_shot_graph_ids": [
+      40,
+      38
+    ]
+  },
+  "40": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 4?\nA: 2.This is because of the following edges: the edge from node 0 to node 4 with capacity 2, the edge from node 8 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 2?\nA: 7.This is because of the following edges: the edge from node 0 to node 2 with capacity 7, the edge from node 4 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 9?\nA: ",
+    "answer": "1.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the maximum capacity of the flow from node 8 to node 9?\nA: ",
+    "graph_id": 40,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      9
+    ],
+    "few_shot_graph_ids": [
+      49,
+      41
+    ]
+  },
+  "41": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 3?\nA: 1.This is because of the following edges: the edge from node 0 to node 3 with capacity 1, the edge from node 8 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 6?\nA: 5.This is because of the following edges: the edge from node 0 to node 6 with capacity 5, the edge from node 5 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 2?\nA: ",
+    "answer": "7.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 2?\nA: ",
+    "graph_id": 41,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      2
+    ],
+    "few_shot_graph_ids": [
+      76,
+      1
+    ]
+  },
+  "42": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 1?\nA: 4.This is because of the following edges: the edge from node 0 to node 1 with capacity 4, the edge from node 4 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 16 to node 18?\nA: 3.This is because of the following edges: the edge from node 0 to node 18 with capacity 3, the edge from node 16 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 7?\nA: ",
+    "answer": "5.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 7?\nA: ",
+    "graph_id": 42,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      7
+    ],
+    "few_shot_graph_ids": [
+      11,
+      39
+    ]
+  },
+  "43": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 0?\nA: 6.This is because of the following edges: the edge from node 2 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 2?\nA: 7.This is because of the following edges: the edge from node 0 to node 2 with capacity 7, the edge from node 4 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 3?\nA: ",
+    "graph_id": 43,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ],
+    "few_shot_graph_ids": [
+      73,
+      41
+    ]
+  },
+  "44": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 1 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 1?\nA: 2.This is because of the following edges: the edge from node 0 to node 1 with capacity 2, the edge from node 2 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 3?\nA: ",
+    "answer": "5.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 3?\nA: ",
+    "graph_id": 44,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      3
+    ],
+    "few_shot_graph_ids": [
+      40,
+      5
+    ]
+  },
+  "45": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 0?\nA: 6.This is because of the following edges: the edge from node 3 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 5?\nA: 8.This is because of the following edges: the edge from node 0 to node 5 with capacity 8, the edge from node 10 to node 0 with capacity 8.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 3?\nA: ",
+    "answer": "1.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 3?\nA: ",
+    "graph_id": 45,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      3
+    ],
+    "few_shot_graph_ids": [
+      85,
+      52
+    ]
+  },
+  "46": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 5?\nA: 8.This is because of the following edges: the edge from node 0 to node 5 with capacity 8, the edge from node 10 to node 0 with capacity 8.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 6?\nA: 3.This is because of the following edges: the edge from node 0 to node 6 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 8?\nA: ",
+    "answer": "3.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 8?\nA: ",
+    "graph_id": 46,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      8
+    ],
+    "few_shot_graph_ids": [
+      52,
+      97
+    ]
+  },
+  "47": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 4?\nA: 4.This is because of the following edges: the edge from node 0 to node 4 with capacity 4, the edge from node 10 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 6?\nA: 6.This is because of the following edges: the edge from node 0 to node 6 with capacity 6, the edge from node 2 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 9?\nA: ",
+    "answer": "7.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 9?\nA: ",
+    "graph_id": 47,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      9
+    ],
+    "few_shot_graph_ids": [
+      65,
+      82
+    ]
+  },
+  "48": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 6?\nA: 3.This is because of the following edges: the edge from node 0 to node 6 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 8?\nA: 1.This is because of the following edges: the edge from node 0 to node 8 with capacity 1, the edge from node 5 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 10?\nA: ",
+    "answer": "5.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 10?\nA: ",
+    "graph_id": 48,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      10
+    ],
+    "few_shot_graph_ids": [
+      97,
+      20
+    ]
+  },
+  "49": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 6?\nA: 5.This is because of the following edges: the edge from node 0 to node 6 with capacity 5, the edge from node 8 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 13 to node 9?\nA: 2.This is because of the following edges: the edge from node 0 to node 9 with capacity 2, the edge from node 13 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 5?\nA: ",
+    "answer": "1.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 5?\nA: ",
+    "graph_id": 49,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      5
+    ],
+    "few_shot_graph_ids": [
+      90,
+      95
+    ]
+  },
+  "50": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 4.This is because of the following edges: the edge from node 0 to node 5 with capacity 4, the edge from node 4 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 6?\nA: 10.This is because of the following edges: the edge from node 0 to node 6 with capacity 10, the edge from node 2 to node 0 with capacity 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "answer": "1.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "graph_id": 50,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ],
+    "few_shot_graph_ids": [
+      96,
+      46
+    ]
+  },
+  "51": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 13?\nA: 3.This is because of the following edges: the edge from node 0 to node 13 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 5 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 4?\nA: ",
+    "answer": "1.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the maximum capacity of the flow from node 8 to node 4?\nA: ",
+    "graph_id": 51,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      4
+    ],
+    "few_shot_graph_ids": [
+      26,
+      58
+    ]
+  },
+  "52": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 0?\nA: 5.This is because of the following edges: the edge from node 9 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 0?\nA: 7.This is because of the following edges: the edge from node 1 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 4?\nA: ",
+    "answer": "1.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 4?\nA: ",
+    "graph_id": 52,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      4
+    ],
+    "few_shot_graph_ids": [
+      63,
+      77
+    ]
+  },
+  "53": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 1?\nA: 4.This is because of the following edges: the edge from node 0 to node 1 with capacity 4, the edge from node 4 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 3?\nA: 1.This is because of the following edges: the edge from node 0 to node 3 with capacity 1, the edge from node 8 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 8?\nA: ",
+    "answer": "6.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 8?\nA: ",
+    "graph_id": 53,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      8
+    ],
+    "few_shot_graph_ids": [
+      11,
+      76
+    ]
+  },
+  "54": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 1?\nA: 2.This is because of the following edges: the edge from node 0 to node 1 with capacity 2, the edge from node 7 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 10?\nA: 6.This is because of the following edges: the edge from node 0 to node 10 with capacity 6, the edge from node 9 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 7?\nA: ",
+    "answer": "5.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 7?\nA: ",
+    "graph_id": 54,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      7
+    ],
+    "few_shot_graph_ids": [
+      87,
+      16
+    ]
+  },
+  "55": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 8?\nA: 5.This is because of the following edges: the edge from node 0 to node 8 with capacity 5, the edge from node 4 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 0?\nA: 5.This is because of the following edges: the edge from node 2 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 2?\nA: ",
+    "answer": "4.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 2?\nA: ",
+    "graph_id": 55,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      2
+    ],
+    "few_shot_graph_ids": [
+      53,
+      28
+    ]
+  },
+  "56": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 8?\nA: 6.This is because of the following edges: the edge from node 0 to node 8 with capacity 6, the edge from node 9 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 3?\nA: 3.This is because of the following edges: the edge from node 0 to node 3 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 12 to node 8?\nA: ",
+    "answer": "5.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 12 to node 8?\nA: ",
+    "graph_id": 56,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      8
+    ],
+    "few_shot_graph_ids": [
+      18,
+      54
+    ]
+  },
+  "57": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 14 to node 11?\nA: 5.This is because of the following edges: the edge from node 0 to node 11 with capacity 5, the edge from node 14 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 12 to node 7?\nA: 3.This is because of the following edges: the edge from node 0 to node 7 with capacity 3, the edge from node 12 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 5?\nA: ",
+    "answer": "6.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 5?\nA: ",
+    "graph_id": 57,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      5
+    ],
+    "few_shot_graph_ids": [
+      12,
+      67
+    ]
+  },
+  "58": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 0?\nA: 5.This is because of the following edges: the edge from node 2 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 11?\nA: 1.This is because of the following edges: the edge from node 0 to node 11 with capacity 1, the edge from node 2 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 8?\nA: ",
+    "answer": "3.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 8?\nA: ",
+    "graph_id": 58,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      8
+    ],
+    "few_shot_graph_ids": [
+      28,
+      47
+    ]
+  },
+  "59": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 3?\nA: 2.This is because of the following edges: the edge from node 0 to node 3 with capacity 2, the edge from node 8 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 4.This is because of the following edges: the edge from node 0 to node 5 with capacity 4, the edge from node 4 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "answer": "4.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "graph_id": 59,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      4
+    ],
+    "few_shot_graph_ids": [
+      35,
+      96
+    ]
+  },
+  "60": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 1?\nA: 7.This is because of the following edges: the edge from node 0 to node 1 with capacity 7, the edge from node 9 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: 6.This is because of the following edges: the edge from node 0 to node 7 with capacity 6, the edge from node 1 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 15 to node 12?\nA: ",
+    "answer": "5.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the maximum capacity of the flow from node 15 to node 12?\nA: ",
+    "graph_id": 60,
+    "algorithm": "star",
+    "node_ids": [
+      15,
+      12
+    ],
+    "few_shot_graph_ids": [
+      61,
+      3
+    ]
+  },
+  "61": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 6?\nA: 5.This is because of the following edges: the edge from node 0 to node 6 with capacity 5, the edge from node 5 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 3?\nA: 6.This is because of the following edges: the edge from node 0 to node 3 with capacity 6, the edge from node 7 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 15?\nA: ",
+    "answer": "1.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 15?\nA: ",
+    "graph_id": 61,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      15
+    ],
+    "few_shot_graph_ids": [
+      1,
+      68
+    ]
+  },
+  "62": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 6?\nA: 7.This is because of the following edges: the edge from node 0 to node 6 with capacity 7, the edge from node 7 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 2?\nA: 7.This is because of the following edges: the edge from node 0 to node 2 with capacity 7, the edge from node 4 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 3?\nA: ",
+    "answer": "4.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 3?\nA: ",
+    "graph_id": 62,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      3
+    ],
+    "few_shot_graph_ids": [
+      0,
+      41
+    ]
+  },
+  "63": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: 6.This is because of the following edges: the edge from node 0 to node 7 with capacity 6, the edge from node 1 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 8?\nA: 5.This is because of the following edges: the edge from node 0 to node 8 with capacity 5, the edge from node 2 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 8?\nA: ",
+    "answer": "6.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 8?\nA: ",
+    "graph_id": 63,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      8
+    ],
+    "few_shot_graph_ids": [
+      3,
+      44
+    ]
+  },
+  "64": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 2?\nA: 7.This is because of the following edges: the edge from node 0 to node 2 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 12 to node 4?\nA: 10.This is because of the following edges: the edge from node 0 to node 4 with capacity 10, the edge from node 12 to node 0 with capacity 10.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 8?\nA: ",
+    "answer": "4.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 8?\nA: ",
+    "graph_id": 64,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      8
+    ],
+    "few_shot_graph_ids": [
+      25,
+      74
+    ]
+  },
+  "65": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 8?\nA: 1.This is because of the following edges: the edge from node 0 to node 8 with capacity 1, the edge from node 1 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: 2.This is because of the following edges: the edge from node 0 to node 2 with capacity 2, the edge from node 1 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 0?\nA: ",
+    "answer": "5.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 0?\nA: ",
+    "graph_id": 65,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      0
+    ],
+    "few_shot_graph_ids": [
+      50,
+      51
+    ]
+  },
+  "66": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 4?\nA: 2.This is because of the following edges: the edge from node 0 to node 4 with capacity 2, the edge from node 8 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: 2.This is because of the following edges: the edge from node 0 to node 2 with capacity 2, the edge from node 1 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 5?\nA: ",
+    "answer": "5.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 5?\nA: ",
+    "graph_id": 66,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      5
+    ],
+    "few_shot_graph_ids": [
+      49,
+      51
+    ]
+  },
+  "67": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: 6.This is because of the following edges: the edge from node 0 to node 7 with capacity 6, the edge from node 1 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 5.This is because of the following edges: the edge from node 0 to node 5 with capacity 5, the edge from node 4 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 7?\nA: ",
+    "answer": "3.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 7?\nA: ",
+    "graph_id": 67,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      7
+    ],
+    "few_shot_graph_ids": [
+      3,
+      19
+    ]
+  },
+  "68": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 5.This is because of the following edges: the edge from node 0 to node 5 with capacity 5, the edge from node 4 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 6?\nA: 5.This is because of the following edges: the edge from node 0 to node 6 with capacity 5, the edge from node 5 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 8?\nA: ",
+    "answer": "3.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 8?\nA: ",
+    "graph_id": 68,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      8
+    ],
+    "few_shot_graph_ids": [
+      91,
+      1
+    ]
+  },
+  "69": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 4?\nA: 3.This is because of the following edges: the edge from node 0 to node 4 with capacity 3, the edge from node 7 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 6?\nA: 6.This is because of the following edges: the edge from node 0 to node 6 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 12 to node 8?\nA: ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the maximum capacity of the flow from node 12 to node 8?\nA: ",
+    "graph_id": 69,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      8
+    ],
+    "few_shot_graph_ids": [
+      2,
+      13
+    ]
+  },
+  "70": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 9.This is because of the following edges: the edge from node 0 to node 5 with capacity 9, the edge from node 4 to node 0 with capacity 9.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 1?\nA: 2.This is because of the following edges: the edge from node 0 to node 1 with capacity 2, the edge from node 7 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 7?\nA: ",
+    "answer": "6.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 7?\nA: ",
+    "graph_id": 70,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      7
+    ],
+    "few_shot_graph_ids": [
+      27,
+      87
+    ]
+  },
+  "71": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 8?\nA: 6.This is because of the following edges: the edge from node 0 to node 8 with capacity 6, the edge from node 9 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 0?\nA: 3.This is because of the following edges: the edge from node 3 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 15 to node 7?\nA: ",
+    "answer": "3.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the maximum capacity of the flow from node 15 to node 7?\nA: ",
+    "graph_id": 71,
+    "algorithm": "star",
+    "node_ids": [
+      15,
+      7
+    ],
+    "few_shot_graph_ids": [
+      18,
+      21
+    ]
+  },
+  "72": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 12 to node 7?\nA: 3.This is because of the following edges: the edge from node 0 to node 7 with capacity 3, the edge from node 12 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: 2.This is because of the following edges: the edge from node 0 to node 2 with capacity 2, the edge from node 1 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 2?\nA: ",
+    "graph_id": 72,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      2
+    ],
+    "few_shot_graph_ids": [
+      67,
+      51
+    ]
+  },
+  "73": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 0?\nA: 5.This is because of the following edges: the edge from node 9 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 13?\nA: 2.This is because of the following edges: the edge from node 0 to node 13 with capacity 2, the edge from node 9 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 3?\nA: ",
+    "answer": "3.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 3?\nA: ",
+    "graph_id": 73,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      3
+    ],
+    "few_shot_graph_ids": [
+      63,
+      93
+    ]
+  },
+  "74": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 4?\nA: 8.This is because of the following edges: the edge from node 0 to node 4 with capacity 8, the edge from node 2 to node 0 with capacity 8.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 2?\nA: 3.This is because of the following edges: the edge from node 0 to node 2 with capacity 3, the edge from node 7 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 12?\nA: ",
+    "answer": "9.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 12?\nA: ",
+    "graph_id": 74,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      12
+    ],
+    "few_shot_graph_ids": [
+      83,
+      66
+    ]
+  },
+  "75": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 3?\nA: 3.This is because of the following edges: the edge from node 0 to node 3 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 0?\nA: 6.This is because of the following edges: the edge from node 2 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 10?\nA: ",
+    "answer": "5.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 10?\nA: ",
+    "graph_id": 75,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      10
+    ],
+    "few_shot_graph_ids": [
+      54,
+      73
+    ]
+  },
+  "76": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 10?\nA: 1.This is because of the following edges: the edge from node 0 to node 10 with capacity 1, the edge from node 4 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 6?\nA: 1.This is because of the following edges: the edge from node 0 to node 6 with capacity 1, the edge from node 1 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "answer": "3.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 4?\nA: ",
+    "graph_id": 76,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      4
+    ],
+    "few_shot_graph_ids": [
+      64,
+      80
+    ]
+  },
+  "77": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 3?\nA: 3.This is because of the following edges: the edge from node 0 to node 3 with capacity 3, the edge from node 10 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 2?\nA: 7.This is because of the following edges: the edge from node 0 to node 2 with capacity 7, the edge from node 4 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 2?\nA: ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 2?\nA: ",
+    "graph_id": 77,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      2
+    ],
+    "few_shot_graph_ids": [
+      54,
+      41
+    ]
+  },
+  "78": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 5.This is because of the following edges: the edge from node 0 to node 5 with capacity 5, the edge from node 4 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 6?\nA: 6.This is because of the following edges: the edge from node 0 to node 6 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "answer": "7.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "graph_id": 78,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ],
+    "few_shot_graph_ids": [
+      91,
+      13
+    ]
+  },
+  "79": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 7?\nA: 3.This is because of the following edges: the edge from node 0 to node 7 with capacity 3, the edge from node 6 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 0?\nA: 6.This is because of the following edges: the edge from node 6 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 3?\nA: ",
+    "answer": "1.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the maximum capacity of the flow from node 7 to node 3?\nA: ",
+    "graph_id": 79,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      3
+    ],
+    "few_shot_graph_ids": [
+      57,
+      98
+    ]
+  },
+  "80": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 1?\nA: 3.This is because of the following edges: the edge from node 0 to node 1 with capacity 3, the edge from node 3 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 10?\nA: 1.This is because of the following edges: the edge from node 0 to node 10 with capacity 1, the edge from node 4 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 11?\nA: ",
+    "answer": "10.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 11?\nA: ",
+    "graph_id": 80,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      11
+    ],
+    "few_shot_graph_ids": [
+      29,
+      64
+    ]
+  },
+  "81": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 1?\nA: 7.This is because of the following edges: the edge from node 0 to node 1 with capacity 7, the edge from node 9 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 16 to node 18?\nA: 3.This is because of the following edges: the edge from node 0 to node 18 with capacity 3, the edge from node 16 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 3?\nA: ",
+    "answer": "4.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 3?\nA: ",
+    "graph_id": 81,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      3
+    ],
+    "few_shot_graph_ids": [
+      61,
+      39
+    ]
+  },
+  "82": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 3?\nA: 6.This is because of the following edges: the edge from node 0 to node 3 with capacity 6, the edge from node 7 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 7?\nA: 1.This is because of the following edges: the edge from node 0 to node 7 with capacity 1, the edge from node 4 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 0?\nA: ",
+    "answer": "6.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the maximum capacity of the flow from node 6 to node 0?\nA: ",
+    "graph_id": 82,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      0
+    ],
+    "few_shot_graph_ids": [
+      68,
+      81
+    ]
+  },
+  "83": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 8?\nA: 5.This is because of the following edges: the edge from node 0 to node 8 with capacity 5, the edge from node 2 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 11?\nA: 2.This is because of the following edges: the edge from node 0 to node 11 with capacity 2, the edge from node 5 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 6?\nA: ",
+    "answer": "7.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 6?\nA: ",
+    "graph_id": 83,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      6
+    ],
+    "few_shot_graph_ids": [
+      44,
+      92
+    ]
+  },
+  "84": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 8?\nA: 5.This is because of the following edges: the edge from node 0 to node 8 with capacity 5, the edge from node 2 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: 2.This is because of the following edges: the edge from node 0 to node 2 with capacity 2, the edge from node 1 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 1?\nA: ",
+    "answer": "6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 1?\nA: ",
+    "graph_id": 84,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      1
+    ],
+    "few_shot_graph_ids": [
+      44,
+      51
+    ]
+  },
+  "85": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 5?\nA: 2.This is because of the following edges: the edge from node 0 to node 5 with capacity 2, the edge from node 2 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 8?\nA: 2.This is because of the following edges: the edge from node 0 to node 8 with capacity 2, the edge from node 7 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 4?\nA: ",
+    "answer": "6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 4?\nA: ",
+    "graph_id": 85,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      4
+    ],
+    "few_shot_graph_ids": [
+      48,
+      6
+    ]
+  },
+  "86": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 10?\nA: 2.This is because of the following edges: the edge from node 0 to node 10 with capacity 2, the edge from node 1 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 6?\nA: 6.This is because of the following edges: the edge from node 0 to node 6 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 3?\nA: ",
+    "answer": "1.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 3?\nA: ",
+    "graph_id": 86,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      3
+    ],
+    "few_shot_graph_ids": [
+      56,
+      13
+    ]
+  },
+  "87": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 2?\nA: 7.This is because of the following edges: the edge from node 0 to node 2 with capacity 7, the edge from node 4 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 2?\nA: 5.This is because of the following edges: the edge from node 0 to node 2 with capacity 5, the edge from node 1 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 14 to node 1?\nA: ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the maximum capacity of the flow from node 14 to node 1?\nA: ",
+    "graph_id": 87,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      1
+    ],
+    "few_shot_graph_ids": [
+      41,
+      17
+    ]
+  },
+  "88": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 13?\nA: 1.This is because of the following edges: the edge from node 0 to node 13 with capacity 1, the edge from node 10 to node 0 with capacity 1.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: 5.This is because of the following edges: the edge from node 0 to node 5 with capacity 5, the edge from node 4 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 6?\nA: ",
+    "answer": "6.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the maximum capacity of the flow from node 10 to node 6?\nA: ",
+    "graph_id": 88,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      6
+    ],
+    "few_shot_graph_ids": [
+      22,
+      19
+    ]
+  },
+  "89": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 6?\nA: 6.This is because of the following edges: the edge from node 0 to node 6 with capacity 6, the edge from node 2 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 12?\nA: 7.This is because of the following edges: the edge from node 0 to node 12 with capacity 7, the edge from node 8 to node 0 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 2?\nA: ",
+    "answer": "8.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 2?\nA: ",
+    "graph_id": 89,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ],
+    "few_shot_graph_ids": [
+      82,
+      33
+    ]
+  },
+  "90": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 3?\nA: 6.This is because of the following edges: the edge from node 0 to node 3 with capacity 6, the edge from node 7 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 2?\nA: 4.This is because of the following edges: the edge from node 0 to node 2 with capacity 4, the edge from node 8 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 10?\nA: ",
+    "answer": "3.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the maximum capacity of the flow from node 5 to node 10?\nA: ",
+    "graph_id": 90,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      10
+    ],
+    "few_shot_graph_ids": [
+      68,
+      32
+    ]
+  },
+  "91": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 1?\nA: 4.This is because of the following edges: the edge from node 0 to node 1 with capacity 4, the edge from node 5 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 1?\nA: 4.This is because of the following edges: the edge from node 0 to node 1 with capacity 4, the edge from node 5 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 9 to node 1?\nA: ",
+    "answer": "4.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the maximum capacity of the flow from node 9 to node 1?\nA: ",
+    "graph_id": 91,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      1
+    ],
+    "few_shot_graph_ids": [
+      62,
+      62
+    ]
+  },
+  "92": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 7?\nA: 2.This is because of the following edges: the edge from node 0 to node 7 with capacity 2, the edge from node 4 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 13 to node 6?\nA: 3.This is because of the following edges: the edge from node 0 to node 6 with capacity 3, the edge from node 13 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 13 to node 0?\nA: ",
+    "answer": "3.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the maximum capacity of the flow from node 13 to node 0?\nA: ",
+    "graph_id": 92,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      0
+    ],
+    "few_shot_graph_ids": [
+      88,
+      10
+    ]
+  },
+  "93": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 8?\nA: 5.This is because of the following edges: the edge from node 0 to node 8 with capacity 5, the edge from node 4 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 3?\nA: 2.This is because of the following edges: the edge from node 0 to node 3 with capacity 2, the edge from node 2 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 10 to node 3?\nA: ",
+    "answer": "3.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the maximum capacity of the flow from node 10 to node 3?\nA: ",
+    "graph_id": 93,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      3
+    ],
+    "few_shot_graph_ids": [
+      53,
+      43
+    ]
+  },
+  "94": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 6 to node 2?\nA: 4.This is because of the following edges: the edge from node 0 to node 2 with capacity 4, the edge from node 6 to node 0 with capacity 4.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17) (0, 18).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 16 to node 18?\nA: 3.This is because of the following edges: the edge from node 0 to node 18 with capacity 3, the edge from node 16 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 4?\nA: ",
+    "answer": "3.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the maximum capacity of the flow from node 2 to node 4?\nA: ",
+    "graph_id": 94,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      4
+    ],
+    "few_shot_graph_ids": [
+      7,
+      39
+    ]
+  },
+  "95": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 4?\nA: 3.This is because of the following edges: the edge from node 0 to node 4 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 5 to node 6?\nA: 5.This is because of the following edges: the edge from node 0 to node 6 with capacity 5, the edge from node 5 to node 0 with capacity 5.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 14?\nA: ",
+    "answer": "8.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the maximum capacity of the flow from node 0 to node 14?\nA: ",
+    "graph_id": 95,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      14
+    ],
+    "few_shot_graph_ids": [
+      4,
+      1
+    ]
+  },
+  "96": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 3?\nA: 2.This is because of the following edges: the edge from node 0 to node 3 with capacity 2, the edge from node 8 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14) (0, 15) (0, 16) (0, 17).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 1?\nA: 2.This is because of the following edges: the edge from node 0 to node 1 with capacity 2, the edge from node 7 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "answer": "6.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the maximum capacity of the flow from node 3 to node 4?\nA: ",
+    "graph_id": 96,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ],
+    "few_shot_graph_ids": [
+      35,
+      87
+    ]
+  },
+  "97": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 2?\nA: 7.This is because of the following edges: the edge from node 0 to node 2 with capacity 7.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 7 to node 8?\nA: 2.This is because of the following edges: the edge from node 0 to node 8 with capacity 2, the edge from node 7 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 4 to node 5?\nA: ",
+    "answer": "4.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 4 to node 5?\nA: ",
+    "graph_id": 97,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      5
+    ],
+    "few_shot_graph_ids": [
+      25,
+      6
+    ]
+  },
+  "98": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11) (0, 12) (0, 13) (0, 14).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 13 to node 6?\nA: 3.This is because of the following edges: the edge from node 0 to node 6 with capacity 3, the edge from node 13 to node 0 with capacity 3.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10) (0, 11).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 0 to node 6?\nA: 6.This is because of the following edges: the edge from node 0 to node 6 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (0, 10).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 7?\nA: ",
+    "answer": "3.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 7?\nA: ",
+    "graph_id": 98,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      7
+    ],
+    "few_shot_graph_ids": [
+      10,
+      13
+    ]
+  },
+  "99": {
+    "question": "Example: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 8 to node 2?\nA: 6.This is because of the following edges: the edge from node 0 to node 2 with capacity 6, the edge from node 8 to node 0 with capacity 6.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, and 4.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 2 to node 3?\nA: 2.This is because of the following edges: the edge from node 0 to node 3 with capacity 2, the edge from node 2 to node 0 with capacity 2.\nExample: In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge. G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nThe edges in G are: (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9).\nLet's construct the graph with the nodes and edges first.\nQ: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "answer": "3.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the maximum capacity of the flow from node 1 to node 4?\nA: ",
+    "graph_id": 99,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ],
+    "few_shot_graph_ids": [
+      23,
+      43
+    ]
+  }
+}

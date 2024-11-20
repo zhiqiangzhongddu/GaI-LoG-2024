@@ -1,0 +1,1302 @@
+{
+  "0": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 11?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 11?\nA: ",
+    "graph_id": 0,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      11
+    ]
+  },
+  "1": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nQ: What is the length of the shortest path from node 10 to node 9?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 9?\nA: ",
+    "graph_id": 1,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      9
+    ]
+  },
+  "2": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 9?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 9?\nA: ",
+    "graph_id": 2,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      9
+    ]
+  },
+  "3": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 2?\nA: ",
+    "graph_id": 3,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      2
+    ]
+  },
+  "4": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 1?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "graph_id": 4,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      1
+    ]
+  },
+  "5": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 5 to node 0?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 0?\nA: ",
+    "graph_id": 5,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      0
+    ]
+  },
+  "6": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 8?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 8?\nA: ",
+    "graph_id": 6,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      8
+    ]
+  },
+  "7": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nNode 18 is connected to node 0.\nQ: What is the length of the shortest path from node 15 to node 7?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the length of the shortest path from node 15 to node 7?\nA: ",
+    "graph_id": 7,
+    "algorithm": "star",
+    "node_ids": [
+      15,
+      7
+    ]
+  },
+  "8": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 10?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 10?\nA: ",
+    "graph_id": 8,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      10
+    ]
+  },
+  "9": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 8 to node 7?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 7?\nA: ",
+    "graph_id": 9,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      7
+    ]
+  },
+  "10": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 9?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 9?\nA: ",
+    "graph_id": 10,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      9
+    ]
+  },
+  "11": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 5 to node 0?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 0?\nA: ",
+    "graph_id": 11,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      0
+    ]
+  },
+  "12": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "graph_id": 12,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ]
+  },
+  "13": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nQ: What is the length of the shortest path from node 8 to node 1?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 1?\nA: ",
+    "graph_id": 13,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      1
+    ]
+  },
+  "14": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: What is the length of the shortest path from node 5 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 2?\nA: ",
+    "graph_id": 14,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      2
+    ]
+  },
+  "15": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 13?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 13?\nA: ",
+    "graph_id": 15,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      13
+    ]
+  },
+  "16": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nNode 18 is connected to node 0.\nQ: What is the length of the shortest path from node 11 to node 8?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the length of the shortest path from node 11 to node 8?\nA: ",
+    "graph_id": 16,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      8
+    ]
+  },
+  "17": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 5?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "graph_id": 17,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      5
+    ]
+  },
+  "18": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: What is the length of the shortest path from node 3 to node 7?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 7?\nA: ",
+    "graph_id": 18,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      7
+    ]
+  },
+  "19": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 5?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 5?\nA: ",
+    "graph_id": 19,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      5
+    ]
+  },
+  "20": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 8?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 8?\nA: ",
+    "graph_id": 20,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      8
+    ]
+  },
+  "21": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 5?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 5?\nA: ",
+    "graph_id": 21,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      5
+    ]
+  },
+  "22": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 5 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 2?\nA: ",
+    "graph_id": 22,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      2
+    ]
+  },
+  "23": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 6?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 6?\nA: ",
+    "graph_id": 23,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      6
+    ]
+  },
+  "24": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 0?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "graph_id": 24,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      0
+    ]
+  },
+  "25": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 4?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 4?\nA: ",
+    "graph_id": 25,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      4
+    ]
+  },
+  "26": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 2?\nA: ",
+    "graph_id": 26,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      2
+    ]
+  },
+  "27": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 4?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 4?\nA: ",
+    "graph_id": 27,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      4
+    ]
+  },
+  "28": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "graph_id": 28,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ]
+  },
+  "29": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 2?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "graph_id": 29,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ]
+  },
+  "30": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nQ: What is the length of the shortest path from node 3 to node 16?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 16?\nA: ",
+    "graph_id": 30,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      16
+    ]
+  },
+  "31": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "graph_id": 31,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      4
+    ]
+  },
+  "32": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 0?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 0?\nA: ",
+    "graph_id": 32,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      0
+    ]
+  },
+  "33": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 6 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "graph_id": 33,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      4
+    ]
+  },
+  "34": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: What is the length of the shortest path from node 10 to node 12?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 12?\nA: ",
+    "graph_id": 34,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      12
+    ]
+  },
+  "35": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "graph_id": 35,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      2
+    ]
+  },
+  "36": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 1?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 1?\nA: ",
+    "graph_id": 36,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      1
+    ]
+  },
+  "37": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: What is the length of the shortest path from node 9 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 9 to node 4?\nA: ",
+    "graph_id": 37,
+    "algorithm": "star",
+    "node_ids": [
+      9,
+      4
+    ]
+  },
+  "38": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 0?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 0?\nA: ",
+    "graph_id": 38,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      0
+    ]
+  },
+  "39": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nNode 18 is connected to node 0.\nQ: What is the length of the shortest path from node 18 to node 12?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the length of the shortest path from node 18 to node 12?\nA: ",
+    "graph_id": 39,
+    "algorithm": "star",
+    "node_ids": [
+      18,
+      12
+    ]
+  },
+  "40": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: What is the length of the shortest path from node 5 to node 7?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 7?\nA: ",
+    "graph_id": 40,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      7
+    ]
+  },
+  "41": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "graph_id": 41,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      4
+    ]
+  },
+  "42": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 3?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 3?\nA: ",
+    "graph_id": 42,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      3
+    ]
+  },
+  "43": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 3?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 3?\nA: ",
+    "graph_id": 43,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      3
+    ]
+  },
+  "44": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 7?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 7?\nA: ",
+    "graph_id": 44,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      7
+    ]
+  },
+  "45": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nQ: What is the length of the shortest path from node 16 to node 14?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the length of the shortest path from node 16 to node 14?\nA: ",
+    "graph_id": 45,
+    "algorithm": "star",
+    "node_ids": [
+      16,
+      14
+    ]
+  },
+  "46": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 8?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 8?\nA: ",
+    "graph_id": 46,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      8
+    ]
+  },
+  "47": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: What is the length of the shortest path from node 3 to node 12?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 12?\nA: ",
+    "graph_id": 47,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      12
+    ]
+  },
+  "48": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 6?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "graph_id": 48,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      6
+    ]
+  },
+  "49": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 6 to node 1?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 1?\nA: ",
+    "graph_id": 49,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      1
+    ]
+  },
+  "50": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: What is the length of the shortest path from node 8 to node 1?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 1?\nA: ",
+    "graph_id": 50,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      1
+    ]
+  },
+  "51": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 6?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 6?\nA: ",
+    "graph_id": 51,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      6
+    ]
+  },
+  "52": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: What is the length of the shortest path from node 10 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 4?\nA: ",
+    "graph_id": 52,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      4
+    ]
+  },
+  "53": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 3 to node 5?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "graph_id": 53,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      5
+    ]
+  },
+  "54": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "graph_id": 54,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      2
+    ]
+  },
+  "55": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "graph_id": 55,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      2
+    ]
+  },
+  "56": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 13?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 13?\nA: ",
+    "graph_id": 56,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      13
+    ]
+  },
+  "57": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: What is the length of the shortest path from node 5 to node 6?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "graph_id": 57,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      6
+    ]
+  },
+  "58": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 12 to node 7?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 12 to node 7?\nA: ",
+    "graph_id": 58,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      7
+    ]
+  },
+  "59": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 8?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 8?\nA: ",
+    "graph_id": 59,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      8
+    ]
+  },
+  "60": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: What is the length of the shortest path from node 12 to node 6?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 12 to node 6?\nA: ",
+    "graph_id": 60,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      6
+    ]
+  },
+  "61": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 9?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 9?\nA: ",
+    "graph_id": 61,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      9
+    ]
+  },
+  "62": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: What is the length of the shortest path from node 6 to node 0?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 0?\nA: ",
+    "graph_id": 62,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      0
+    ]
+  },
+  "63": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: What is the length of the shortest path from node 3 to node 8?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 8?\nA: ",
+    "graph_id": 63,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      8
+    ]
+  },
+  "64": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 5?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "graph_id": 64,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      5
+    ]
+  },
+  "65": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 7?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 7?\nA: ",
+    "graph_id": 65,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      7
+    ]
+  },
+  "66": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "graph_id": 66,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ]
+  },
+  "67": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 13 to node 1?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 13 to node 1?\nA: ",
+    "graph_id": 67,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      1
+    ]
+  },
+  "68": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 6 to node 3?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 3?\nA: ",
+    "graph_id": 68,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      3
+    ]
+  },
+  "69": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 6?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 6?\nA: ",
+    "graph_id": 69,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      6
+    ]
+  },
+  "70": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 3 to node 11?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 11?\nA: ",
+    "graph_id": 70,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      11
+    ]
+  },
+  "71": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nQ: What is the length of the shortest path from node 14 to node 16?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the length of the shortest path from node 14 to node 16?\nA: ",
+    "graph_id": 71,
+    "algorithm": "star",
+    "node_ids": [
+      14,
+      16
+    ]
+  },
+  "72": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: What is the length of the shortest path from node 3 to node 5?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "graph_id": 72,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      5
+    ]
+  },
+  "73": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "graph_id": 73,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      4
+    ]
+  },
+  "74": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: What is the length of the shortest path from node 11 to node 6?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 11 to node 6?\nA: ",
+    "graph_id": 74,
+    "algorithm": "star",
+    "node_ids": [
+      11,
+      6
+    ]
+  },
+  "75": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 9?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 9?\nA: ",
+    "graph_id": 75,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      9
+    ]
+  },
+  "76": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: What is the length of the shortest path from node 3 to node 4?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "graph_id": 76,
+    "algorithm": "star",
+    "node_ids": [
+      3,
+      4
+    ]
+  },
+  "77": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, and 4.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 2?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 5,
+    "nedges": 4,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "graph_id": 77,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      2
+    ]
+  },
+  "78": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 8 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 2?\nA: ",
+    "graph_id": 78,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      2
+    ]
+  },
+  "79": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nNode 18 is connected to node 0.\nQ: What is the length of the shortest path from node 15 to node 17?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 19,
+    "nedges": 18,
+    "task_description": "Q: What is the length of the shortest path from node 15 to node 17?\nA: ",
+    "graph_id": 79,
+    "algorithm": "star",
+    "node_ids": [
+      15,
+      17
+    ]
+  },
+  "80": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: What is the length of the shortest path from node 7 to node 5?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 7 to node 5?\nA: ",
+    "graph_id": 80,
+    "algorithm": "star",
+    "node_ids": [
+      7,
+      5
+    ]
+  },
+  "81": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 16,
+    "nedges": 15,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "graph_id": 81,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      2
+    ]
+  },
+  "82": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, and 6.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 4?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 7,
+    "nedges": 6,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 4?\nA: ",
+    "graph_id": 82,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      4
+    ]
+  },
+  "83": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, and 8.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 8?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 9,
+    "nedges": 8,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 8?\nA: ",
+    "graph_id": 83,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      8
+    ]
+  },
+  "84": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 0?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "graph_id": 84,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      0
+    ]
+  },
+  "85": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 5 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 2?\nA: ",
+    "graph_id": 85,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      2
+    ]
+  },
+  "86": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 0?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "graph_id": 86,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      0
+    ]
+  },
+  "87": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, and 17.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nNode 17 is connected to node 0.\nQ: What is the length of the shortest path from node 1 to node 2?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 18,
+    "nedges": 17,
+    "task_description": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "graph_id": 87,
+    "algorithm": "star",
+    "node_ids": [
+      1,
+      2
+    ]
+  },
+  "88": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nQ: What is the length of the shortest path from node 2 to node 3?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "graph_id": 88,
+    "algorithm": "star",
+    "node_ids": [
+      2,
+      3
+    ]
+  },
+  "89": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nQ: What is the length of the shortest path from node 0 to node 6?\nA: Let's think step by step. ",
+    "answer": "1.",
+    "nnodes": 12,
+    "nedges": 11,
+    "task_description": "Q: What is the length of the shortest path from node 0 to node 6?\nA: ",
+    "graph_id": 89,
+    "algorithm": "star",
+    "node_ids": [
+      0,
+      6
+    ]
+  },
+  "90": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nQ: What is the length of the shortest path from node 6 to node 11?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 13,
+    "nedges": 12,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 11?\nA: ",
+    "graph_id": 90,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      11
+    ]
+  },
+  "91": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: What is the length of the shortest path from node 10 to node 6?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 10 to node 6?\nA: ",
+    "graph_id": 91,
+    "algorithm": "star",
+    "node_ids": [
+      10,
+      6
+    ]
+  },
+  "92": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, and 13.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nQ: What is the length of the shortest path from node 13 to node 10?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 14,
+    "nedges": 13,
+    "task_description": "Q: What is the length of the shortest path from node 13 to node 10?\nA: ",
+    "graph_id": 92,
+    "algorithm": "star",
+    "node_ids": [
+      13,
+      10
+    ]
+  },
+  "93": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, and 16.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nNode 15 is connected to node 0.\nNode 16 is connected to node 0.\nQ: What is the length of the shortest path from node 12 to node 8?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 17,
+    "nedges": 16,
+    "task_description": "Q: What is the length of the shortest path from node 12 to node 8?\nA: ",
+    "graph_id": 93,
+    "algorithm": "star",
+    "node_ids": [
+      12,
+      8
+    ]
+  },
+  "94": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, and 7.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 3?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 8,
+    "nedges": 7,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "graph_id": 94,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      3
+    ]
+  },
+  "95": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nNode 11 is connected to node 0.\nNode 12 is connected to node 0.\nNode 13 is connected to node 0.\nNode 14 is connected to node 0.\nQ: What is the length of the shortest path from node 5 to node 10?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 15,
+    "nedges": 14,
+    "task_description": "Q: What is the length of the shortest path from node 5 to node 10?\nA: ",
+    "graph_id": 95,
+    "algorithm": "star",
+    "node_ids": [
+      5,
+      10
+    ]
+  },
+  "96": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, and 5.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 1?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 6,
+    "nedges": 5,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "graph_id": 96,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      1
+    ]
+  },
+  "97": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: What is the length of the shortest path from node 8 to node 1?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 8 to node 1?\nA: ",
+    "graph_id": 97,
+    "algorithm": "star",
+    "node_ids": [
+      8,
+      1
+    ]
+  },
+  "98": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nNode 10 is connected to node 0.\nQ: What is the length of the shortest path from node 4 to node 10?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 11,
+    "nedges": 10,
+    "task_description": "Q: What is the length of the shortest path from node 4 to node 10?\nA: ",
+    "graph_id": 98,
+    "algorithm": "star",
+    "node_ids": [
+      4,
+      10
+    ]
+  },
+  "99": {
+    "question": "G describes a graph among nodes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nIn this graph:\nNode 0 is connected to nodes 1, 2, 3, 4, 5, 6, 7, 8, 9.\nNode 1 is connected to node 0.\nNode 2 is connected to node 0.\nNode 3 is connected to node 0.\nNode 4 is connected to node 0.\nNode 5 is connected to node 0.\nNode 6 is connected to node 0.\nNode 7 is connected to node 0.\nNode 8 is connected to node 0.\nNode 9 is connected to node 0.\nQ: What is the length of the shortest path from node 6 to node 9?\nA: Let's think step by step. ",
+    "answer": "2.",
+    "nnodes": 10,
+    "nedges": 9,
+    "task_description": "Q: What is the length of the shortest path from node 6 to node 9?\nA: ",
+    "graph_id": 99,
+    "algorithm": "star",
+    "node_ids": [
+      6,
+      9
+    ]
+  }
+}
